@@ -52,13 +52,7 @@ layout: page
       </div>
     </div>
   </div>
-  <div class="text-container" style="padding-top: 3em">
-      <h2>Next post</h2>
-      <div class="blog-post">
-        {% if page.next %} {% include post-summary.html post=page.next %} {% elsif
-        page.previous %} {% include post-summary.html post=page.previous %} {%
-        endif %}
-      </div>
+  {% include related-post.html %}
     </div>
 </section>
 

@@ -254,3 +254,12 @@ section {
   font-family: "Graphik";
   src: URL(".../GRAPHIK.ttf") format("TrueType");
 }
+h2.sow-headline
+{
+  text-align: center;
+  margin-top: 15px;
+}
+p.sow-sub-headline {
+  text-align: center;
+  line-height: 30px;
+}

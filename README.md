@@ -1,13 +1,10 @@
-# Urban
+# Rakshit Soral (https://rakshitsoral.ga)
 
-Web Agency themed business template for Jekyll. Browse through a [live demo](https://teal-worm.cloudvent.net/).
-Increase the web presence of your agency with this configurable theme.
+I developed this website using Jekyll and Github pages. It is hosted on Netlify. The theme used is Web Agency themed business template for Jekyll. 
 
 ![Urban template screenshot](images/_screenshot.png)
 
-Urban was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
+Here are some features of this amazing Jekyll theme:
 
 ## Features
 

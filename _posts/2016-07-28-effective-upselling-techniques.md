@@ -16,6 +16,12 @@ In practice, large businesses usually combine upselling and cross-selling to max
 In restaurants and other similar settings, upselling is commonplace and an accepted form of business. In other businesses (e.g. car sales), the customer’s perception of the attempted upsell can be viewed negatively and impact the desired result.
 
 ## Why should you upsell?
+<div class="mb-wrap mb-style-2">
+   <blockquote>  
+  <p>"The U.S. is fast approaching $19,000,000,000,000.00 in national debt. This is mathematically impossible to ever pay back &hellip; even if every American was taxed at 100%."</p>
+  <span>Charles Goyette, The Dollar Meltdown</span>
+</blockquote>
+</div>
 
 Upselling is a common practice for service providers that offer different service classes such as airlines (cf. Bohutinsky, 1990). According to “the journal of business and industrial marketing; written collaboratively by Michael J, Sheehan and Paul R, Prabhaker “It is five times more expensive to get a new customer as it is to hold onto a current one.” Selling to a new customer would mean having to start the sales process from the very beginning thus having to establish a new relationship with a different customer. This can be time consuming and often not very effective.
 

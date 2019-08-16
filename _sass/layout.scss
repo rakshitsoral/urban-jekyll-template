@@ -298,3 +298,141 @@ p.sow-sub-headline {
       display: inline;
   }
 }
+.row-quote
+{
+  text-align: center;
+}
+
+blockquote {
+  margin: 0 auto;
+  padding: 1em;
+  border-left: 5px solid purple;
+}
+blockquote:before {
+  display: none;
+}
+blockquote:not(:first-of-type) {
+  margin-top: .5em;
+}
+blockquote p {
+  color: black;
+  font-size: 12pt;
+  line-height: 1.4;
+  font-family: 'PT Serif', Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+}
+blockquote span {
+  margin-top: .5em;
+  padding: 0;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  font-style: italic;
+}
+blockquote span:before {
+  content: "\2014";
+}
+blockquote:nth-of-type(even) {
+  text-align: right;
+  border-left: none;
+  border-right: 5px solid purple;
+}
+blockquote:nth-of-type(even) footer {
+  text-align: right;
+}
+blockquote:nth-of-type(even) footer:before {
+  content: '';
+}
+blockquote:nth-of-type(even) footer:after {
+  content: ' —';
+}
+@element 'blockquote' and (min-width: 300px) {
+  blockquote {
+    padding: 1em 20% 1em 1em;
+  }
+  blockquote p {
+    font-size: 14pt;
+  }
+  blockquote:nth-of-type(even) {
+    padding: 1em 1em 1em 20%;
+  }
+}
+.mb-wrap {
+  margin : 20px auto; 
+  padding : 20px; 
+  position : relative; 
+} 
+
+.mb-wrap p {
+  margin : 0; 
+  padding : 0; 
+}
+
+.mb-wrap blockquote {
+  margin : 0; 
+  padding : 0; 
+  position : relative; 
+} 
+
+.mb-wrap cite {
+  font-style : normal; 
+} 
+
+.mb-style-2 blockquote {
+  padding-top : 150px; 
+} 
+
+.mb-style-2 blockquote:after {
+    background: none repeat scroll 0 0 #D8BFD8;
+    border-radius: 50% 50% 50% 50%;
+    content: open-quote;
+    font-family: 'icons';
+    font-size: 70px;
+    height: 130px;
+    left: 50%;
+    line-height: 130px;
+    margin-left: -65px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 130px;
+}
+.mb-style-2 blockquote:before {
+    border-left: 5px solid purple;
+    border-radius: 50% 50% 50% 50%;
+    content: "❞";
+    height: 500px;
+    left: -50px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.mb-style-2 blockquote p {
+  color : black; 
+  display : inline; 
+  font-family : Baskerville, Georgia, serif; 
+  font-style : italic; 
+  font-size : 28px; 
+  line-height : 46px; 
+} 
+
+.mb-attribution {
+  text-align : right; 
+} 
+
+ .mb-author {
+  color : purple; 
+  font-size : 18px; 
+  font-weight : bold; 
+  padding-top : 10px; 
+  text-transform : uppercase; 
+}  
+
+cite a {
+  color : black; 
+  font-style : italic; 
+} 
+
+cite a:hover {
+  color : black; 
+} 

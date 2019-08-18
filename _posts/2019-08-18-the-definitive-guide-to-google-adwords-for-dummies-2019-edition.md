@@ -25,7 +25,7 @@ You called Google and screamed “Hey! I want to purchase a billboard space at �
 
 Unfortunately, they hung-up your phone. Why? Because they are too busy to take your call (they often get thousands of phones anyway!). After further inquiring, you came to know that you can’t approach Google directly. Google came up with a way to screen Advertisers with a screening process which involves bidding and keyword placement strategy (since it manages the overall infrastructure and their main goal is to make the most of Advertisers money). 
 
-So, now you’ll directly compete with Advertisers who wants to advertise at the same lane. This is why you need to set the right bid and target the keywords which falls under the same lane. You can try bidding on **“Buy branded shirts online”**, **“Buy branded pants online”**, etc.etc. 
+So, now you’ll directly compete with Advertisers who wants to advertise at the same lane. This is why you need to set the right bid and target the keywords which falls under the same lane. You can try bidding on <b>“Buy branded shirts online”</b>, <b>“Buy branded pants online”</b>, etc.etc. 
 
 But remember, there are thousands of advertisers possibly competing for the same keywords so that’s why bid increases when Traffic and competition increases. This whole concept of renting a Billboard at a competitive lane and bidding on the right keywords is called as Campaign. 
 
@@ -35,7 +35,7 @@ Pay-per-click Advertising (Google Adwords) is very simple. You only pay for what
 
 As I already said before, the whole Google Infrastructure (I am talking about Adwords!) works like an auction. Advertisers bid the biggest price for a click. 
 
-But, here’s the thing about Google Adwords: **Big bids not always make you win in auction. **
+But, here’s the thing about Google Adwords: <b>Big bids not always make you win in auction.</b>
 
 Yes, you heard that right. It is true that the greatest bid gives you an upper hand from your competitors, but it’s not the only prize you pay for winning the auction race. 
 
@@ -43,7 +43,7 @@ Google doesn’t want you to fool your customers with Money. If that were the ca
 
 Google combines a quality factor with bid which is the single most effective way to outrank your competitors. 
 
-Quality factor + Biggest bid = Win-Win for Advertiser</p>
+<span>Quality factor + Biggest bid = Win-Win for Advertiser</span>
 
 However, it isn't easy to master Google adwords. It requires lots of practice and perseverance to learn and get benefits using it. There are stories all over the internet who have spend lots of money on it but didn’t get benefited because of the serious mistake Advertisers commit while running a campaign. 
 
@@ -54,11 +54,12 @@ The Quality factor I talked in above paras is also known as Quality Score in Goo
 <div class="mb-wrap mb-style-2"><blockquote><p>“Quality Score is an estimate of how relevant your ads, keywords, and landing pages are to a person who sees your ad. Higher Quality Scores typically lead to lower costs and better ad positions.”</p><span>Google</span></blockquote></div>
 
 According to Google, Quality score of an Adwords campaign depends upon three main factors:
-* Ads
-* Keywords
-* Landing Page
+<ul>
+<li>Ads</li>
+<li>Keywords</li>
+<li>Landing Page</li>
 
-**These three elements are analyzed by Google and a Quality score gets generated for your campaign.**
+<b>These three elements are analyzed by Google and a Quality score gets generated for your campaign.</b>
 
 However, a [study done by Adalysis](https://searchengineland.com/reverse-engineering-adwords-quality-score-factors-244192) reported that Landing page experience and expected CTR are the top two factors responsible for a good Quality Score. Having said that, a better landing page experience or a CTR above average could result in a good Quality Score. The scale of a Quality score gets measured from score 1 to 10, 7 is average and anything below 5 is considered poor.  
 
@@ -80,9 +81,11 @@ Here you go.
 Campaign structuring is the fundamental basis of being able to run cost-effective campaigns and keep your budget manageable. One of the major reasons why most campaign fail boils down to a single thing: not being able to effectively structure your Google campaign. 
 
 A good tip will be to think about the purpose of running campaign and ask yourself a couple of questions such as the following:
-* What is the goal of campaign you’re about to run? Is it for Product or Services?
-* Where are your potential customers located? What locations or regions you’d like to target?
-* What about Budgets? Are there different set of budgets for products and services? What’s your priority — to generate leads or to grow your business as a brand?
+<ul>
+<li>What is the goal of campaign you’re about to run? Is it for Product or Services?</li>
+<li>Where are your potential customers located? What locations or regions you’d like to target?</li>
+<li>What about Budgets? Are there different set of budgets for products and services? What’s your priority — to generate leads or to grow your business as a brand?</li>
+</ul>
 
 The basic structure of an Adwords campaign is relatively simple. Within each campaign, you have ad groups, ads and keywords. Each Ad groups inherit campaign settings (not applicable to mobile). They can be grouped within campaigns by keywords and Ad copy. All the keywords of an ad group will trigger an ad. 
 
@@ -93,12 +96,13 @@ Below is an example of simple Adwords structure:
 As a rule of thumb, you should create two separate campaigns for different products or services. For example, as a garment business, you might want to create separate campaigns targeted at different locations you service. 
 
 Within each campaign, you should create different ad groups. But remember, if your Ad group consists of several keywords – all with different themes – your ads are less likely to be effective. If you’re someone who is in a garment business since a long time, it’s effective to have following ad groups:
-
-* ---- Garment business
-* ------Garment business supply
-* --------Garment business services
-* ----------Garment business shop
-* -------------Garment business company
+<ul>
+<li> ---- Garment business</li>
+<li>------Garment business supply</li>
+<li>--------Garment business services</li>
+<li>----------Garment business shop</li>
+<li>-------------Garment business company</li>
+</ul>
 
 In the above paras, you learned about structuring a Google adwords campaign. But that’s not the end of our goal yet. I am yet to tell you about the main part of running Google ad campaigns. Let’s get started and learn how to run a sample Google Adwords campaign.
 

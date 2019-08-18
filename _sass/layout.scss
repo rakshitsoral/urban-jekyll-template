@@ -274,6 +274,13 @@ p.sow-sub-headline {
   .author-bio1
   {
     display: flex; margin-top: 50px;
+    margin-top: 50px;
+    background: #1A1B25;
+    color: #fff;
+    padding: 25px;
+    width: 100%;
+    float: right;
+    overflow: hidden;
   }
 @media (max-width: 600px)
 {
@@ -283,7 +290,14 @@ p.sow-sub-headline {
   }
  .author-bio1
  {
-  flex-direction: column;
+  margin-top: 50px;
+  background: #000;
+  color: #fff;
+  padding: 25px;
+  width: 100%;
+  float: right;
+  overflow: hidden;
+  display: inline-block;
  }
 }
 .container_about {
@@ -385,6 +399,7 @@ blockquote:nth-of-type(even) footer:after {
     background: none repeat scroll 0 0 #D8BFD8;
     border-radius: 50% 50% 50% 50%;
     content: open-quote;
+    color: black;
     font-family: 'icons';
     font-size: 70px;
     height: 130px;

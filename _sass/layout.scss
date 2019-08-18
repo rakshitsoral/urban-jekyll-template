@@ -284,9 +284,26 @@ p.sow-sub-headline {
   }
 @media (max-width: 600px)
 {
+  p
+  {
+    font-size: 18px;
+    color: black;
+  }
+  .personal_text p{
+    color: black;
+  }
+  h1{
+    font-size: 38px;
+  }
+  h2.editable{
+    font-size: 30px;
+  }
   .recent-posts
   { 
     flex-direction: column;
+  }
+  .recent-posts-inline{
+    width: 330px;
   }
  .author-bio1
  {

@@ -16,6 +16,12 @@ In practice, large businesses usually combine upselling and cross-selling to max
 
 In restaurants and other similar settings, upselling is commonplace and an accepted form of business. In other businesses (e.g. car sales), the customer’s perception of the attempted upsell can be viewed negatively and impact the desired result.
 
+<ul class="round">
+	<li>Round Bullet</li>
+	<li>Round Bullet</li>
+	<li>Round Bullet</li>
+</ul>
+
 <h2 class="note">Why should you upsell?</h2>
 <div class="mb-wrap mb-style-2">
    <blockquote>  

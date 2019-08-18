@@ -47,13 +47,13 @@ subtitle: See my Digital Marketing Portfolio for some examples of my work with e
   <div class="container">
     <div class="about-container">
       <div class="left-content-text" style="display: flex">
-        <h3><i class="far fa-user-circle" style="font-size:32px; color:#823980"></i>About Myself</h3>
+        <h3 class="note"><i class="far fa-user-circle" style="font-size:32px; color:#823980"></i>About Myself</h3>
         					<p>I am a Digital Marketer at Simform, specializing in Content Marketing, SEO, Pay per click (PPC), Graphics and Web Designing. Experienced with SEO tools, Adobe Illustrator, Wordpress, Webflow and Social Media management.</p>
                   <div class="Row">
                     <div class="Column">3+ <small>years <br> experience</small></div>
                     <div class="Column">10+ <small>websites <br>ranked</small></div>
                 </div>
-                <h3><i class="fa fa-briefcase" style="padding-top: 4.5em; font-size:32px; color:#823980"></i>Experience</h3>
+                <h3 style="padding-top: 20px">Experience</h3>
                 <div class="verticalLine">
                   <ul style="list-style-type: square">
                     <li style="padding-left:1em; padding-bottom: 1em"><span>Digital Marketer - Lead Generation</span><small>Simform</small><small>Oct 2017 - Present</small></li>
@@ -63,10 +63,10 @@ subtitle: See my Digital Marketing Portfolio for some examples of my work with e
                 </div>
                 </div>
       <div class="right-content" style="display: flex">
-        <h3 style="padding-top: 1em">Skills</h3>
+        <h3 class="note" style="padding-top: 1em">Skills</h3>
         <p>Search Engine Optimization (SEO)</p>
 <div class="skills-container">
-  <div class="skills html">90%</div>
+  <div class="skills html" style="padding-bottom: 20px">90%</div>
 </div>
 
 <p>Landing Page Optimization</p>
@@ -89,7 +89,7 @@ subtitle: See my Digital Marketing Portfolio for some examples of my work with e
   <div class="skills php">60%</div>
 </div>
 
-<h3><i class="fa fa-graduation-cap"  style="padding-top: 3em; font-size:32px; color:#823980"></i>Education</h3>
+<h3 style="padding-top: 2em">Education</h3>
               <div class="verticalLine">
                    <ul style="list-style-type: square">
                     <li style="padding-left:1em; padding-bottom: 1em"><span>B.Tech (Computer Science & Engineering)</span><small>Rajasthan Technical University</small><small>July. 2011 - May 2015</small></li>
@@ -101,7 +101,7 @@ subtitle: See my Digital Marketing Portfolio for some examples of my work with e
       </div>
       
 </div>
-<h3 style="padding-top: 2em">Testimonials</h3>
+<h3 class="note" style="padding-top: 2em">Testimonials</h3>
 <div class="container box_1620">
 <div class="wrapper">
   <div class="mb-wrap mb-style-2"> <blockquote>
@@ -121,33 +121,7 @@ subtitle: See my Digital Marketing Portfolio for some examples of my work with e
 </div>   
 
   </div>
-  <div class="container">
-      <h3 style="padding-top: 2em">Insights</h3>
-
-    <p class="editor-link" style="text-align: center;">
-      <a href="cloudcannon:collections/_insights/" class="btn"
-        ><strong>&#9998;</strong> Manage insights</a
-      >
-    </p>
-    <ul class="image-grid">
-      {% for insight in site.insights %}
-      <li>
-        <a href="{{ site.baseurl }}{{ insight.url }}">
-          <img
-            src="{% include relative-src.html src=insight.image_path %}"
-            alt="{{ person.name }}"
-          />
-          <div class="details">
-            <div class="name">{{ insight.name }}</div>
-            <div class="position">{{ insight.subtitle }}</div>
-          </div>
-        </a>
-      </li>
-      {% endfor %}
-      <li class="filler"></li>
-      <li class="filler"></li>
-    </ul>
-  </div>
+  
   
   
 </div>

@@ -54,7 +54,7 @@ The Quality factor I talked in above paras is also known as Quality Score in Goo
 <div class="mb-wrap mb-style-2"><blockquote><p>“Quality Score is an estimate of how relevant your ads, keywords, and landing pages are to a person who sees your ad. Higher Quality Scores typically lead to lower costs and better ad positions.”</p><span>Google</span></blockquote></div>
 
 According to Google, Quality score of an Adwords campaign depends upon three main factors:
-<ul>
+<ul class="round">
 <li>Ads</li>
 <li>Keywords</li>
 <li>Landing Page</li>
@@ -81,7 +81,7 @@ Here you go.
 Campaign structuring is the fundamental basis of being able to run cost-effective campaigns and keep your budget manageable. One of the major reasons why most campaign fail boils down to a single thing: not being able to effectively structure your Google campaign. 
 
 A good tip will be to think about the purpose of running campaign and ask yourself a couple of questions such as the following:
-<ul>
+<ul class="circle-checkmark">
 <li>What is the goal of campaign you’re about to run? Is it for Product or Services?</li>
 <li>Where are your potential customers located? What locations or regions you’d like to target?</li>
 <li>What about Budgets? Are there different set of budgets for products and services? What’s your priority — to generate leads or to grow your business as a brand?</li>
@@ -96,7 +96,7 @@ Below is an example of simple Adwords structure:
 As a rule of thumb, you should create two separate campaigns for different products or services. For example, as a garment business, you might want to create separate campaigns targeted at different locations you service. 
 
 Within each campaign, you should create different ad groups. But remember, if your Ad group consists of several keywords – all with different themes – your ads are less likely to be effective. If you’re someone who is in a garment business since a long time, it’s effective to have following ad groups:
-<ul>
+<ul class="pac-man">
 <li> ---- Garment business</li>
 <li>------Garment business supply</li>
 <li>--------Garment business services</li>

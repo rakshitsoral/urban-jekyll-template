@@ -58,7 +58,7 @@ According to Google, Quality score of an Adwords campaign depends upon three mai
 <li>Ads</li>
 <li>Keywords</li>
 <li>Landing Page</li>
-
+</ul>
 <b>These three elements are analyzed by Google and a Quality score gets generated for your campaign.</b>
 
 However, a [study done by Adalysis](https://searchengineland.com/reverse-engineering-adwords-quality-score-factors-244192) reported that Landing page experience and expected CTR are the top two factors responsible for a good Quality Score. Having said that, a better landing page experience or a CTR above average could result in a good Quality Score. The scale of a Quality score gets measured from score 1 to 10, 7 is average and anything below 5 is considered poor.  

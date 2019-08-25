@@ -11,8 +11,8 @@ layout: page
         <h1>{{ page.title }}</h1>
       {% endif %}        
       {% include post-title.html %}
-      {{ page.date | date_to_long_string }}     {% include author.html %}
-      {% if page.featured-image %}{% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
+      <p>{{ page.date | date_to_long_string }}     {% include author.html %}</p>
+{% if page.featured-image %}{% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
       {% include share-buttons.html %}
 
       {{ content }}

@@ -255,7 +255,7 @@ body {
 
 .buttonzone {
   display: flex;
-  width: 450px;
+  // width: 100vw;
 }
 
 #downloadbutton,
@@ -277,7 +277,6 @@ body {
   width: 100%;
   margin: 24px auto;
 }
-
 
 p.author {
   background-color: transparent;

@@ -1,8 +1,8 @@
 ---
 title: The Definitive Guide to Google Adwords for Dummies- 2019 Edition
 categories:
-  - digital marketing
-  - google adwords
+  - digital-marketing
+  - google-adwords
 featured-image: Google Adwords2.jpg
 excerpt: When I first started my career as a Digital marketer, I was familiar with what Google ads are — but beyond that I had no idea. I hardly knew the difference between search and display marketing; Damn! I was also confused between Google ads and Adsense (Silly me. Sigh!)
 ---

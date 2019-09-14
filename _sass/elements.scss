@@ -73,3 +73,24 @@ p {
   font-weight: 400;
   line-height: 1.75;
 }
+#scroll-to-top {
+  display: inline-block;
+  background-color: #f0f0f0;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s;
+  z-index: 1000;
+}
+#scroll-to-top:hover {
+  cursor: pointer;
+  background-color: #b19cd9;
+}
+#scroll-to-top:active {
+  background-color: #b19cd9;
+}

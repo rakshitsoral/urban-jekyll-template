@@ -13,6 +13,12 @@
 
     <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css" />
 
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
     <link
       rel="apple-touch-icon"
       href="{{ site.baseurl }}/apple-touch-icon.png"
@@ -60,6 +66,13 @@
       </div>
     </header>
     {{ content }}
+    <button
+      id="scroll-to-top"
+      onclick="scrollToTop()"
+      style="display:hidden; position:fixed; font-size:20px;bottom: 10%;right: 10%;opacity: 1;z-index: 10;cursor: pointer;"
+    >
+      Back to Top&uarr;
+    </button>
 
     <footer class="diagonal">
       <div class="container">
@@ -144,6 +157,26 @@
           }
         });
       }
+    </script>
+    <script>
+      function scrollToTop() {
+        $("html, body").animate({ scrollTop: 0 }, 400);
+        return false;
+      }
+
+      function toggleScrollToTopButton() {
+        var threshold = 200;
+        if ($(window).scrollTop() > threshold) {
+          $("#scroll-to-top").fadeIn("slow");
+        } else {
+          $("#scroll-to-top").fadeOut("slow");
+        }
+      }
+
+      $(document).ready(function() {
+        $("#scroll-to-top").click(scrollToTop);
+        $(window).scroll(toggleScrollToTopButton);
+      });
     </script>
   </body>
 </html>

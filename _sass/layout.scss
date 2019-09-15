@@ -6,7 +6,7 @@
 }
 
 .text-container {
-  max-width: 900px;
+  max-width: 800px;
 }
 
 .container {
@@ -289,6 +289,7 @@ p.sow-sub-headline {
   p {
     font-size: 20px;
   }
+
   .personal_text p {
     color: black;
   }
@@ -344,7 +345,7 @@ blockquote:not(:first-of-type) {
 }
 blockquote p {
   color: black;
-  font-size: 12pt;
+  font-size: 1.45rem;
   line-height: 1.4;
   font-family: "PT Serif", Cambria, "Hoefler Text", Utopia, "Liberation Serif",
     "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;

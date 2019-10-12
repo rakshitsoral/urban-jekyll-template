@@ -1,7 +1,7 @@
 ---
 title: Best Design Resources (Free and Paid) for Marketers
 ---
-While I don’t consider myself as a designer, I see designing as an essential skill for marketers. There are days when I find myself burdened with the responsibilities of creating content; days when I get desperate to fuel my creativity. This makes me busy playing with different design tools and enhance my design skills. Here are some design resources I prefer to use as a marketer:
+While I don’t consider myself as a designer, I see design as an essential skill for marketers. There are days when I find myself burdened with the responsibilities of creating content; days when I get desperate to fuel my creativity. This makes me busy playing with different design tools and enhance my design skills. Here are some design resources I prefer to use as a marketer:
 
 ## 🖼 Creating and Editing Marketing collaterals and Images
 

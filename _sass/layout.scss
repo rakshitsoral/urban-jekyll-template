@@ -41,7 +41,7 @@ header {
 }
 
 .content {
-  background: #fff;
+  background: #1C1C22;
   padding: 1px 0 0 0;
   position: relative;
 }
@@ -59,7 +59,7 @@ header {
 
 section {
   padding: 150px 0;
-  background: #fff;
+  background: #1C1C22;
   margin-top: -2px;
 
   &.diagonal {
@@ -78,7 +78,7 @@ section {
 
   &.hero {
     color: #ffffff;
-    background: $brand-color;
+    background: #15151C;
     text-align: left;
     margin-top: -100px;
     padding-top: 250px;
@@ -94,7 +94,7 @@ section {
 
     p {
       font-size: 1.8rem;
-      color: #fff;
+      color: white;
     }
 
     a:not(.button) {
@@ -104,7 +104,7 @@ section {
   }
 
   &.alternate {
-    background: #eee;
+    background: #1C1C22;
   }
 }
 
@@ -270,7 +270,7 @@ p.sow-sub-headline {
   width: 300px;
   box-shadow: 0 1px 18px 0 rgba(0, 0, 0, 0.05),
     0 3px 5px -1px rgba(0, 0, 0, 0.07);
-  background: #fff;
+  background: #1C1C22;
   transition: all 0.4s ease;
   flex-direction: column;
 }
@@ -278,8 +278,8 @@ p.sow-sub-headline {
   display: flex;
   margin-top: 50px;
   margin-top: 50px;
-  background: #1a1b25;
-  color: #fff;
+  background: #1C1C22;
+  color: white;
   padding: 25px;
   width: 100%;
   float: right;
@@ -291,7 +291,7 @@ p.sow-sub-headline {
   }
 
   .personal_text p {
-    color: black;
+    color: white;
   }
   h1 {
     font-size: 38px;
@@ -307,8 +307,8 @@ p.sow-sub-headline {
   }
   .author-bio1 {
     margin-top: 50px;
-    background: #000;
-    color: #fff;
+    background: #1C1C22;
+    color: white;
     padding: 25px;
     width: 100%;
     float: right;
@@ -335,7 +335,7 @@ p.sow-sub-headline {
 blockquote {
   margin: 0 auto;
   padding: 1em;
-  border-left: 5px solid purple;
+  border-left: 5px solid white;
 }
 blockquote:before {
   display: none;
@@ -344,7 +344,7 @@ blockquote:not(:first-of-type) {
   margin-top: 0.5em;
 }
 blockquote p {
-  color: black;
+  color: white;
   font-size: 1.45rem;
   line-height: 1.4;
   font-family: "PT Serif", Cambria, "Hoefler Text", Utopia, "Liberation Serif",
@@ -364,7 +364,7 @@ blockquote span:before {
 blockquote:nth-of-type(even) {
   text-align: right;
   border-left: none;
-  border-right: 5px solid purple;
+  border-right: 5px solid white;
 }
 blockquote:nth-of-type(even) footer {
   text-align: right;
@@ -415,7 +415,7 @@ blockquote:nth-of-type(even) footer:after {
   background: none repeat scroll 0 0 #d8bfd8;
   border-radius: 50% 50% 50% 50%;
   content: open-quote;
-  color: black;
+  color: white;
   font-family: "icons";
   font-size: 70px;
   height: 130px;
@@ -428,7 +428,7 @@ blockquote:nth-of-type(even) footer:after {
   width: 130px;
 }
 .mb-style-2 blockquote:before {
-  border-left: 5px solid purple;
+  border-left: 5px solid white;
   border-radius: 50% 50% 50% 50%;
   content: "❞";
   height: 500px;
@@ -439,7 +439,7 @@ blockquote:nth-of-type(even) footer:after {
 }
 
 .mb-style-2 blockquote p {
-  color: black;
+  color: white;
   display: inline;
   font-family: Baskerville, Georgia, serif;
   font-style: italic;
@@ -460,12 +460,12 @@ blockquote:nth-of-type(even) footer:after {
 }
 
 cite a {
-  color: black;
+  color: white;
   font-style: italic;
 }
 
 cite a:hover {
-  color: black;
+  color: white;
 }
 /* Share Bar */
 #share-bar {

@@ -21,13 +21,14 @@ layout: page
     </div>
     <div class="author-bio1">
     <div class="left-content" style="flex-direction: row">
-          <img
-            src="{{ site.baseurl }}/images/RakshitSoral1.png"
-            alt="Rakshit Soral"
-            style="align-self: flex-start; height: 80px; width: 80px; border-radius: 50%"
-          />
+          
           <div style="padding: 0px 15px;">
           <p>
+              <img
+              src="{{ site.baseurl }}/images/RakshitSoral1.png"
+              alt="Rakshit Soral"
+              style="align-self: flex-start; height: 80px; width: 80px; border-radius: 50%"
+            />
             Hi, I'm Rakshit Soral. This is my personal website. Come Join me as I unfold the lessons from my personal & professional spheres of life & career. 
           </p>I write about</p>
 
@@ -38,24 +39,8 @@ layout: page
     </div>
     <div class="right-content" style="border: solid 1px rgba(34, 34, 34, 0.08); justify-content: 	flex-start;">
           <h3 style="padding: 20px 0px">Subscribe to get my best articles in your inbox first</h3>
-          <div id="mc_embed_signup">
-        <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-
-            
-              <input type="text" name="EMAIL" placeholder="Email address" class="required email" id="mce-EMAIL" style="font: normal 16px/normal SoloSans, arial, sans-serif; height: 43px;"/>
-            
-            
-              <input type="text" name="FNAME" placeholder="First name" class="required" id="mce-FNAME" style="font: normal 16px/normal SoloSans, arial, sans-serif; height: 43px;"/>
-            
-              <button type="submit" style="    border: none;
-              width: 100%;
-              background: #822e81;
-              color: white;
-              font: bold 12px/22px SoloSansEx, arial, sans-serif;
-              text-transform: uppercase;
-              height: 40px;">Subscribe</button>
-        </form>
-      </div>
+          <div class=”newsletter-container”>
+            <form class=”newsletter-form” action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=RakshitSoral', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p><input class=”newsletter-email” type="text" name="email"/></p><input type="hidden" value="RakshitSoral" name="uri"/><input type="hidden" name="loc" value="en_US"/><input class=”newsletter-submit” type="submit" value="Subscribe" /></form></div>
     </div>
   </div>
   {% include related-post.html %}

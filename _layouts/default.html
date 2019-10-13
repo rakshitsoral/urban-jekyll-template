@@ -114,15 +114,16 @@
           {% endfor %}
 
           <ul class="footer-links" style="color: white">
-            <li>
-              <h2>{{ site.data.company.title }}</h2>
+            
+            <li><div class=”newsletter-container”>
+              <h3 class=”newsletter-title”>Subscribe to Weekly Newsletter</h3>
+              <form class=”newsletter-form” action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=RakshitSoral', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p class=”newsletter-text”>Get new posts to your inbox</p><p><input class=”newsletter-email” type="text" name="email"/></p><input type="hidden" value="RakshitSoral" name="uri"/><input type="hidden" name="loc" value="en_US"/><input style="font-size: 30px;" class=”newsletter-submit” type="submit" value="Subscribe" /></form></div>
+             
             </li>
-            <li>{{ site.data.company.description }}</li>
-            <li>
-              <a href="{{ site.baseurl }}/feed.xml"
-                >{% include social-icon.html icon="RSS" %} Subscribe with RSS</a
-              >
-            </li>
+            <li>OR</li>
+            <li> <a href="{{ site.baseurl }}/feed.xml"
+              >{% include social-icon.html icon="RSS" %} Subscribe with RSS</a
+            ></li>
           </ul>
         </div>
       </div>

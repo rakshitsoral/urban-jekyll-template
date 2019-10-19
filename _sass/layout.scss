@@ -565,7 +565,7 @@ cite a:hover {
 }
 ul {
   font-size: 1.35rem;
-  color: black;
+  color: white;
   line-height: 1.5em;
   margin: 5px 0 15px;
   padding: 0;
@@ -585,7 +585,7 @@ ul.square {
       top: 5px;
       width: 10px;
       height: 10px;
-      background-color: $brand-color;
+      background-color: white;
     }
   }
 }
@@ -598,7 +598,7 @@ ul.round {
       top: 5px;
       width: 10px;
       height: 10px;
-      background-color: $brand-color;
+      background-color: white;
       border-radius: 50%;
       -moz-border-radius: 50%;
       -webkit-border-radius: 50%;
@@ -739,7 +739,7 @@ ul.circle-checkmark {
       position: absolute;
       left: 0;
       top: 2px;
-      border: solid 8px $brand-color;
+      border: solid 8px white;
       border-radius: 8px;
       -moz-border-radius: 8px;
       -webkit-border-radius: 8px;

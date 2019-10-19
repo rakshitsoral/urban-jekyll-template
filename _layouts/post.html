@@ -12,6 +12,7 @@ layout: page
       {% endif %}        
       {% include post-title.html %}
       <p>{{ page.date | date_to_long_string }}     {% include author.html %}</p>
+
 {% if page.featured-image %}{% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
       {% include share-buttons.html %}
 
@@ -43,7 +44,9 @@ layout: page
             <form class=”newsletter-form” action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=RakshitSoral', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p><input class=”newsletter-email” type="text" name="email"/></p><input type="hidden" value="RakshitSoral" name="uri"/><input type="hidden" name="loc" value="en_US"/><input class=”newsletter-submit” type="submit" value="Subscribe" /></form></div>
     </div>
   </div>
-  {% include related-post.html %}
+{% include related-post.html %}
+{% include goodreads_quotes.html %}
+
   <div id="disqus_thread" style="padding-top: 10px"></div>
 <script>
 

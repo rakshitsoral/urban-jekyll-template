@@ -263,6 +263,7 @@ p.sow-sub-headline {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  border: solid #364156 !important;
 }
 .recent-posts-inline {
   display: flex;
@@ -270,7 +271,7 @@ p.sow-sub-headline {
   width: 300px;
   box-shadow: 0 1px 18px 0 rgba(0, 0, 0, 0.05),
     0 3px 5px -1px rgba(0, 0, 0, 0.07);
-  background: #161D2B;
+  background: #222831;
   transition: all 0.4s ease;
   flex-direction: column;
 }
@@ -278,7 +279,8 @@ p.sow-sub-headline {
   display: flex;
   margin-top: 50px;
   margin-top: 50px;
-  background: #161D2B;
+  border: solid #364156 !important;
+  background: #222831;
   color: white;
   padding: 25px;
   width: 100%;
@@ -564,13 +566,13 @@ cite a:hover {
   background-color: #444444;
 }
 ul {
-  font-size: 1.35rem;
+  font-size: 24px;
   color: white;
-  line-height: 1.5em;
+  line-height: 1.86em;
   margin: 5px 0 15px;
   padding: 0;
   li {
-    font-size: 1.35rem;
+    font-size: 24px;
     list-style: none;
     position: relative;
     padding: 0 0 0 20px;

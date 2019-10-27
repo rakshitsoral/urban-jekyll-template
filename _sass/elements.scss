@@ -68,15 +68,15 @@ pre {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 24px;
+  font-family: 'Merriweather', serif;
+  font-size: 22px;
   font-weight: 300;
-  line-height: 1.86;
+  line-height: 2em;
   color: white;
 }
 #scroll-to-top {
   display: inline-block;
-  background-color: #15151C;
+  background-color: white;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -95,3 +95,27 @@ p {
 #scroll-to-top:active {
   background-color: #b19cd9;
 }
+.text-js{
+  opacity: 0;
+}
+.cursor{
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: -5px;
+  width: 2px;
+  /* Change colour of Cursor Here */
+  background-color: white;
+  z-index: 1;
+  animation: flash 0.5s none infinite alternate;
+}
+@keyframes flash{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+

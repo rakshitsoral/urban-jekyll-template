@@ -123,3 +123,120 @@ p {
   }
 }
 
+//Define vars
+$mainColor:#fff;
+$bgColor:#353b48;
+$fSize:50px;
+
+// Define mixins (functions)
+@mixin txtShadow($h,$v,$bl,$co) {
+  -webkit-text-shadow: $h $v $bl $co;
+  -moz-text-shadow: $h $v $bl $co;
+  text-shadow: $h $v $bl $co;
+}
+
+
+//Start Body
+body{
+
+  //Start .Container
+    .container1{
+      width: 70%;
+      margin: auto;
+
+
+      //start .logo
+        .logo{
+          color:$mainColor;
+          text-transform: uppercase;
+          letter-spacing: 10px;
+        }
+      //End .logo
+
+      //Start .title
+        .title{
+          text-align: center;
+          padding-top:30px;
+          font-size: $fSize;
+          color:#7f8fa6;
+          text-transform: uppercase;
+
+            //Start 404 span
+            span{
+              color:$mainColor;
+              font-size: $fSize +100;
+              font-family: verdana;
+              cursor: help;
+              letter-spacing: -15px;
+              animation-name: anim;
+              animation-duration:10s;
+              animation-iteration-count: infinite;
+            }
+            //End 404 span
+        }
+      //End .title
+
+      //Start form
+      form{
+        //Start input
+        input{
+          margin-top: 30px;
+          margin-left: 220px;
+          width: 50%;
+          padding: 5px;
+          border:none;
+          border-bottom: 2px solid $mainColor;
+          background-color: transparent;
+          font-size:$fSize - 30;
+          color: $mainColor;
+        }
+        //End input
+
+        //start btn
+        button{
+          margin-left:0;
+          border:2px solid;
+          padding: 10px;
+          outline: none;
+          background-color: transparent;
+          font-size: $fSize - 30;
+          color:$mainColor;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+        //End btn
+
+      }
+      //End form
+    }
+    //End .Container
+
+
+
+    //Star Footer
+    footer{
+      margin-top: 50px;
+      @include txtShadow(3px, 5px, 5px, #000);
+		}
+    //End footer
+
+
+
+
+    //General styles into body
+  
+}
+//End Body
+
+//KeyFrames
+@keyframes anim{
+    0%{
+      letter-spacing: -15px;
+    }
+    50%{
+      letter-spacing: 25px;
+    }
+    100%{
+      letter-spacing: -15px;
+    }
+  }

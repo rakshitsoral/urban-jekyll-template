@@ -134,10 +134,12 @@ You can find and preview Jekyll themes on the following galleries:
 
 To install a theme, navigate to the theme’s Github Repo and fork it. In my case, I used Urban Jekyll template on my Jekyll website. Here’s a fork for the same:
 
+![Forking the repo](/images/Forking the repo.png)
 
 
 The next step will be to rename the repository to username.github.io. In my case, I shall rename it to rakshitsoral.github.io.
 
+![Renaming the forked repo](/images/Renaming the forked repo.png)
 
 
 Now clone the repo to your local machine:
@@ -160,11 +162,7 @@ Navigate to <a href="http://localhost:4000/" target="_blank">http://localhost:40
 
 ![Urban Jekyll Template](/images/urban jekyll template.png)
 
-Here’s how mine looks like after I customized its layout and theme. 
-
-![Rakshit Soral Website](/images/Rakshit Soral Website.png)
-
-It doesn’t look bad, does it? Next comes the site deployment which I will include in the next part of series.
+It doesn’t look bad, does it? 
 
 <h2 class="note">Wrapping up</h2>
 There you go! In this part, you learned how to build a FREE blog using Jekyll. In the next part of the series, I would walk you through the way I customized the whole site. It will include modifying the home page, setting up the Goodreads quote widget, adding recent posts widget and a lot more. 

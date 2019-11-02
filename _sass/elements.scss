@@ -372,3 +372,42 @@ body{
   .timeline-body > p + p {
     margin-top: 5px;
   }
+
+ code,
+ kbd,
+ pre,
+ samp {
+   font-family: Menlo, Monaco, "Courier New", monospace;
+   font-size: 0.875em;
+ }
+ 
+ code {
+   color: #eea8b9;
+   padding: 0.25em;
+   word-wrap: break-word;
+ }
+ 
+ pre {
+   background-color: #444444;
+   color: whitesmoke;
+   display: block;
+   line-height: 1.5;
+   margin: 0 0 1.5625em;
+   overflow: auto;
+   padding: 0.8125em;
+   -moz-tab-size: 4;
+     -o-tab-size: 4;
+        tab-size: 4;
+   white-space: pre-wrap;
+   word-break: break-all;
+ }
+ 
+ pre code {
+   background-color: transparent;
+   border: 0;
+   color: inherit;
+   font-size: 1em;
+   padding: 0;
+ }
+ 
+ 

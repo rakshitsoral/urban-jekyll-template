@@ -2,7 +2,7 @@
 title: How to Build a Blog for Free (Step-by-Step Walkthrough) - Part 1 of 3
 categories:
   - blogging
-featured-image: Blogging.jpg
+featured-image: Build free blog.jpg
 slug: build-blog-for-free-part-one
 excerpt: Today, I’m going to show you a VERY simple technique for building a Blog for FREE. Although much has been written about building a blog website online, there is little to negligible information about how to build a blog from scratch without bearing any cost at all. There are articles online that must have shown you how to buy web hosting, how to buy a domain name, how to install WordPress and write your first blog etc. etc. 
 ---
@@ -11,11 +11,9 @@ Today, I’m going to show you a VERY simple technique for building a Blog websi
 
 Although much has been written about building a blog website online, there is little to negligible information about how to build a blog from scratch without bearing any cost at all. 
 
-There are articles online that must have shown you how to buy web hosting, how to buy a domain name, how to install WordPress and write your first blog etc. etc. But in this article, you would be learning two simple techniques that most people use for building a FREE OF COST blog. In fact, I have applied both of these techniques myself and learned one-or-two things about the same. 
+There are articles online that must have shown you how to buy web hosting, how to buy a domain name, how to install WordPress and write your first blog etc. etc. But in this blog series, you would be learning a simple technique that most people use for building a FREE OF COST blog. In fact, I have appied this technique to build this blog, without paying a single penny. 
 
-Ready to start the step-by-step Tutorial? Cool, let’s dive-in straight.
-
-<b>PS:</b>  This is part 1 of the series “How to Build a Blogging Website for Free”. I will complete all three parts in a few days. if you want to get notifications about the remaining parts, I would insist you subscribe to my newsletters in the footer. 
+<b>PS:</b>  This is part 1 of the series “How to Build a Blogging Website for Free”. This part includes a basic overview of my thoughts on building a website. If you want to dive straight to the tutorial part, I would insist you to click here - <a href="https://rakshitsoral.ga/blogging/2019/11/02/build-blog-for-free-part-two-jekyll/">How to build a FREE blog with Jekyll and Github Pages</a>
 
 <h2 class="note">Building a blogging website for your career - does that makes sense in 2019?</h2>
 

@@ -2,6 +2,11 @@
 
 <html lang="en">
   <head>
+      {% if page.header-img %}
+      <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
+  {% endif %}
+  
+  <meta property="og:description" content="{{ page.subtitle }}" />
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 

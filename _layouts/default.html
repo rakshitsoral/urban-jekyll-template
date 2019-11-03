@@ -2,9 +2,8 @@
 
 <html lang="en">
   <head>
-      {% if page.header-img %}
-      <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
-  {% endif %}
+      {% include og.html %}
+
   
   <meta property="og:description" content="{{ page.subtitle }}" />
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />

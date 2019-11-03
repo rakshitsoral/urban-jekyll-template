@@ -20,32 +20,35 @@ layout: page
       {% include share-buttons.html %}
 
     </div>
-    <div class="author-bio1">
-    <div class="left-content" style="flex-direction: row">
-          
-          <div style="padding: 0px 15px;">
-          <p>
-              <img
-              src="{{ site.baseurl }}/images/RakshitSoral1.png"
-              alt="Rakshit Soral"
-              style="align-self: flex-start; height: 80px; width: 80px; border-radius: 50%"
-            />
-            Hi, I'm Rakshit Soral. This is my personal website. Come Join me as I unfold the lessons from my personal & professional spheres of life & career. 
-          </p>I write about</p>
+    <section id="author-bio" class="clr">
 
-          <p>
-            Marketing, web-design, technology
-          </p>
-        </div>
-    </div>
-    <div class="right-content" style="border: solid 1px rgba(34, 34, 34, 0.08); justify-content: 	flex-start;">
-          <h3 style="padding: 20px 0px">Subscribe to get my best articles in your inbox first</h3>
-          <div class=”newsletter-container”>
-            <form class=”newsletter-form” action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=RakshitSoral', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p><input class=”newsletter-email” type="text" name="email"/></p><input type="hidden" value="RakshitSoral" name="uri"/><input type="hidden" name="loc" value="en_US"/><input class=”newsletter-submit” type="submit" value="Subscribe" /></form></div>
-    </div>
-  </div>
-
-{% include related-post.html %}
+        <div id="author-bio-inner">
+      
+          <div class="author-bio-avatar">
+      
+            <a href="https://rakshitsoral.ga/about/" title="About Rakshit Soral" rel="author">
+              <img alt="" src="https://secure.gravatar.com/avatar/bb9bf20fb6f55b4af10b0f98c540075f?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/bb9bf20fb6f55b4af10b0f98c540075f?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			</a>
+      
+          </div><!-- .author-bio-avatar -->
+      
+          <div class="author-bio-content clr">
+      
+            <h3 class="author-bio-title">
+              <a href="https://rakshitsoral.ga/about/" title="Visit Author Page">
+                Rakshit Soral				</a>
+            </h3><!-- .author-bio-title -->
+      
+            
+              <div class="author-bio-description clr">
+                <p><a href="https://rakshitsoral.ga/">Rakshit</a> is an accident Engineer turned Online Marketer who has established online presence of several businesses and clients. He devotes most of his time punching his keyboard, listening & singing songs, and swiping his smartphone. Follow him on Twitter <a href="https://twitter.com/RakshitSoral" rel="nofollow">@RakshitSoral</a>	</p>			</div><!-- author-bio-description -->
+      
+            
+          </div>
+      
+        </div><!-- #author-bio-inner -->
+      
+      </section><br><br>
+{% include related-post.html %}<br><br>
 {% include goodreads_quotes.html %}
 
   <div id="disqus_thread" style="padding-top: 10px"></div>

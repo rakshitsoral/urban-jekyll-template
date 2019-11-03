@@ -283,13 +283,20 @@ p.sow-sub-headline {
   overflow: hidden;
 }
 @media (max-width: 600px) {
+
+  ul {
+    font-size: 17px;
+  }
+  li{
+font-size: 17px;
+  }
   #modal
   {
     width: 50%;
     height: 50%;
   }
   p {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.8em;
   }
 

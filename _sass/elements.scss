@@ -32,19 +32,19 @@ h1 {
 
 h2 {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
   margin: 0 0 30px 0;
-  line-height: 1.4;
+  line-height: 1.65;
 }
 
 h3 {
-  font-size: 27px;
+  font-size: 22px;
   margin: 0 0 20px 0;
   line-height: 1.4;
 }
 
 h4 {
-  font-size: 26px;
+  font-size: 20px;
   margin: 0 0 10px 0;
   line-height: 1.4;
 }
@@ -410,4 +410,30 @@ body{
    padding: 0;
  }
  
- 
+ #author-bio {
+  position: relative;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top-width: 1px;
+  border-style: solid;
+  border-color: #364156;
+}
+#author-bio #author-bio-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+#author-bio .author-bio-avatar {
+  min-width: 80px;
+  margin-right: 30px;
+}
+#author-bio .author-bio-avatar, #author-bio .author-bio-avatar img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+#author-bio .author-bio-content {
+  position: relative;
+}

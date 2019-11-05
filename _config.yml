@@ -99,3 +99,37 @@ social_icons:
   - Twitter
   - YouTube
   - RSS
+
+  ############################################################
+# Site configuration for the WebP Generator Plugin
+# The values here represent the defaults if nothing is set
+webp:
+  enabled: true
+
+  # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
+  quality: 75
+
+  # List of directories containing images to optimize
+  # Nested directories will not be checked
+  img_dir: ["/images"]
+
+  # add ".gif" to the format list to generate webp for animated gifs as well
+  formats: [".jpeg", ".jpg", ".png", ".tiff"]
+
+  # File extensions for animated gif files 
+  gifs: [".gif"]
+
+  # Set to true to always regenerate existing webp files
+  regenerate: false
+
+  # Path to the WebP utilities to use (relative or absolute)
+  webp_path: "_plugins/webp/x64"
+
+  # List of files or directories to exclude
+  # e.g. custom or hand generated webp conversion files
+  exclude: []
+
+  # List of files or directories to explicitly include 
+  # e.g. single files outside of the main image directories
+  include: []
+############################################################

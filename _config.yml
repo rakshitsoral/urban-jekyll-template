@@ -120,7 +120,7 @@ webp:
   gifs: [".gif"]
 
   # Set to true to always regenerate existing webp files
-  regenerate: false
+  regenerate: true
 
   # Path to the WebP utilities to use (relative or absolute)
   webp_path: "_plugins/webp/x64"

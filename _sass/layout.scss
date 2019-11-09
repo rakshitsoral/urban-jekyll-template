@@ -284,6 +284,11 @@ p.sow-sub-headline {
 }
 @media (max-width: 600px) {
 
+  .buttonzone {
+    // width: 100vw;
+    flex-direction: column;
+  }
+
   ul {
     font-size: 17px;
   }

@@ -92,7 +92,8 @@
   margin-bottom: 20px;
   color: white;
   padding: 10px 0!important;
-  border: solid #364156;
-  border-left: 50px solid white;
+  border: 1px solid $lineColor;
+  
+  border-left: 50px solid $lineColor;
   background: #222831 !important;
 }

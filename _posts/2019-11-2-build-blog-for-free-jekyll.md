@@ -1,10 +1,10 @@
 ---
 title: How to Build a Blog for FREE - Setting up Jekyll (Part 2 of 3)
 subtitle: This article walk you through a simple way of setting up a Jekyll blog for free. Jekyll is a static site generator which lets you build static site on Github pages.
-header-img: Jekyll free blog.png
+header-img: Jekyll free blog.webp
 categories:
   - blogging
-featured-image: Jekyll free blog.png
+featured-image: Jekyll free blog.webp
 slug: build-blog-for-free-part-two-jekyll
 excerpt: So you finally decided to build a blog that costs you nothing (free). I am sure you have read “Part 1” of this series, which helps you to take the decision. Buckle up, as I take you through the simplest way of building a blog for FREE. 
 
@@ -54,12 +54,12 @@ Below are tests I ran using the <a href="https://tools.pingdom.com/" target="_bl
 
 <h4>WordPress Test</h4>
 
-![Wordpress test](/images/Wordpress speed test.png)
+![Wordpress test](/images/Wordpress speed test.webp)
 
 
 <h4>Static Site Test</h4>
 
-![Wordpress test](/images/static site speed test.png)
+![Wordpress test](/images/static site speed test.webp)
 
 
 <h3>Security</h3>
@@ -136,12 +136,12 @@ You can find and preview Jekyll themes on the following galleries:
 
 To install a theme, navigate to the theme’s Github Repo and fork it. In my case, I used Urban Jekyll template on my Jekyll website. Here’s a fork for the same:
 
-![Forking the repo](/images/Forking the repo.png)
+![Forking the repo](/images/Forking the repo.webp)
 
 
 The next step will be to rename the repository to username.github.io. In my case, I shall rename it to rakshitsoral.github.io.
 
-![Renaming the forked repo](/images/Renaming the forked repo.png)
+![Renaming the forked repo](/images/Renaming the forked repo.webp)
 
 
 Now clone the repo to your local machine:
@@ -162,7 +162,7 @@ Run the site on your local machine:
 
 Navigate to <a href="http://localhost:4000/" target="_blank">http://localhost:4000/</a> and Voilla, your site is live. It should look like the following image:
 
-![Urban Jekyll Template](/images/urban jekyll template.png)
+![Urban Jekyll Template](/images/urban jekyll template.webp)
 
 It doesn’t look bad, does it? 
 

@@ -1,5 +1,10 @@
 ---
 title: Click Depth - Why and How it matters for a Website’s pagination and SEO
+categories:
+  - SEO
+featured-image: pagination.webp
+slug: click-depth-website-pagination-seo
+excerpt: A website's pagination is good from a human’s point of view; however, it’s bad for a search engine crawler if not optimized well. We all see pagination links as clickable numbers; buttons like Next/ previous are often used to define a website’s pagination. However, there’s more to pagination than to view it as a source of navigation. In this article, I will walk you through a piece of actionable advice on how to approach a website’s SEO with pagination.
 ---
 Website pagination is good from a human’s point of view; however, it’s bad for a search engine crawler if not optimized well.
 

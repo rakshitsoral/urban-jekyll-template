@@ -40,7 +40,7 @@ From a human's point of view, the pagination scheme is simple: you click the “
 
 From the crawler’s point of view, however, the site looks like this:
 
-<img src="images/300 pagination.webp" alt="300 pagination">
+<img src="images/300 pagination.jpg" alt="300 pagination">
 
 
 The image above represents a visual representation of a discovery path that an SE crawler has to follow to crawl the whole 300-page website. Note that, for each page, the “next page” link works like navigation to the consecutive page. 
@@ -117,13 +117,13 @@ So, how can the pagination problem in the above example be solved?
 
 The midpoint link pagination scheme is best for sites having a large number of pages. Here, pagination for the homepage looks like this:
 
-<img src="images/simplest mid point pagination.webp" alt="simplest mid point pagination">
+<img src="images/simplest mid point pagination.jpg" alt="simplest mid point pagination">
 
 In the above image, 201 is the midpoint of the pagination and it lowers down the click depth from 300 to only few clicks. What’s more, this scheme makes it possible for a crawler to navigate from any page to any other page in just few steps. 
 
 Here’s the crawl chart for the same:
 
-<img src="images/crawl chart for midpoint pagination1.webp" alt="crawl chart for midpoint pagination1">
+<img src="images/crawl chart for midpoint pagination1.jpg" alt="crawl chart for midpoint pagination1">
 
 
  !\[crawl chart for midpoint pagination](/images/crawl chart for midpoint pagination1.webp)

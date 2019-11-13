@@ -14,7 +14,8 @@ layout: page
       <p>{{ page.date | date_to_long_string }}     {% include author.html %}</p>
 
 {% if page.featured-image %}{% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
-      {% include share-buttons.html %}
+      {% include share-buttons.html %}<br>
+      <div id="toc"></div>
 
       {{ content }}
       {% include share-buttons.html %}
@@ -52,6 +53,13 @@ layout: page
 {% include goodreads_quotes.html %}
 
   <div id="disqus_thread" style="padding-top: 10px"></div>
+  <script src="/js/toc.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $('#toc').toc();
+    });
+    </script>
+
 <script>
 
 /**

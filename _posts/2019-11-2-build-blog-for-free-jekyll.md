@@ -7,6 +7,7 @@ categories:
 featured-image: Jekyll free blog.webp
 slug: build-blog-for-free-part-two-jekyll
 excerpt: So you finally decided to build a blog that costs you nothing (free). I am sure you have read “Part 1” of this series, which helps you to take the decision. Buckle up, as I take you through the simplest way of building a blog for FREE. 
+toc: true
 
 ---
 

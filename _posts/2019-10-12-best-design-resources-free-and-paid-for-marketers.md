@@ -9,13 +9,13 @@ excerpt: While I don’t consider myself as a designer, I see design as an essen
 ---
 While I don’t consider myself as a designer, I see design as an essential skill for marketers. No matter if you are someone who fancy writing awesome content; someone who gets busy sending newsletters to an audience, or someone who is earning as a freelancer. Marketing without Design is like coconut without water. Here's why, I love to try different tools and enhance my creativity. Here are some design resources I prefer to use as a marketer:
 
-<h2 class="note"> 🖼 Creating and Editing Marketing collaterals and Images</h2>
+## 🖼 Creating and Editing Marketing collaterals and Images
 
 When it comes to creating Images with scratch, I recommend you to play around with [Figma](https://www.figma.com/) and [Canva](https://www.canva.com/). While Figma isn’t free except for the trial version, Canva still is a great tool for designing images for your blogs and websites.
 
 I also use [Gravit Designer](https://www.designer.io/en/), which is still a great alternative to tools like Adobe Illustrator and Sketch. Unlike Sketch which doesn’t let you convert a JPG or PNG image to vector format, Gravit Designer is an excellent tool for creating prototypes and logos. You can download Gravit designer for your desktop or you can use it online. 
 
-<h3>Bonus Design tools I recommend to boost your design ambitions:</h3>
+### Bonus Design tools I recommend to boost your design ambitions:
 <ul class="round">
 <li>[Pablo by Buffer:](https://pablo.buffer.com/) I recommend Pablo to quickly create Images for Social media such as Instagram, Pinterest, etc. </li>
 <li>[Duotone:](https://duotone.shapefactory.co/) If you fancy creating images with exciting backgrounds, you can use Duotone which lets you upload an image and add different effects to it. </li>

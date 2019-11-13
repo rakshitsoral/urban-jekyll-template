@@ -15,8 +15,8 @@ This was way back in 2015 when Google totally revamped Adwords with a shifted fo
 
 Let’s get start[ed], shall we?
 
-<h2 class="note">Google Adwords for Dummies - Explain Google Adwords like I’m Five
-</h2>
+## Google Adwords for Dummies - Explain Google Adwords like I’m Five
+
 
 Imagine the internet as a HIGHWAY where there are millions of billboards placed across it. These billboards are your AD placements. The more traffic a billboard attracts, the more expensive it becomes for the advertiser to place a bid.
 
@@ -92,8 +92,8 @@ Buckle up, because this is gonna be hard to understand. However, It’s very cri
 
 Here you go.
 
-<h2 class="note">How to effectively structure a Google Adwords campaign?
-</h2>
+## How to effectively structure a Google Adwords campaign?
+
 
 Campaign structuring is the fundamental basis of being able to run cost-effective campaigns and keep your budget manageable. One of the major reasons why most campaign fail boils down to a single thing: not being able to effectively structure your Google campaign.
 
@@ -132,3 +132,5 @@ Within each campaign, you should create different ad groups. But remember, if yo
 </ul>
 
 In the above paras, you learned about structuring a Google adwords campaign. But that’s not the end of our goal yet. I am yet to tell you about the main part of running Google ad campaigns. Let’s get started and learn how to run a sample Google Adwords campaign.
+
+## Running a Google ad campaign

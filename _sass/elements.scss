@@ -1,5 +1,5 @@
 $color: skyblue;
-$lineColor: hotpink;
+$lineColor: goldenrod;
 $fontColor: #bbb;
 $bgColor1: #222;
 $bgColor2: #444;
@@ -22,7 +22,7 @@ body {
 }
 
 a {
-  color: $lineColor;
+  color: yellow;
   text-decoration: none;
 }
 
@@ -44,9 +44,9 @@ h1 {
 }
 
 h2 {
-  
+  color: goldenrod;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 27px;
   margin: 0 0 30px 0;
   line-height: 1.65;
   
@@ -54,13 +54,14 @@ h2 {
 }
 
 h3 {
-  font-size: 22px;
+  color: gold;
+  font-size: 24px;
   margin: 0 0 20px 0;
   line-height: 1.4;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 22px;
   margin: 0 0 10px 0;
   line-height: 1.4;
 }
@@ -446,4 +447,10 @@ section#author-bio.clr
 {
   display: block;
   padding: 10px 0;
+}
+div#toc {
+  padding: 10px;
+  border: 1px solid #aaa;
+  display: inline-block !important;
+  width: 100%;
 }

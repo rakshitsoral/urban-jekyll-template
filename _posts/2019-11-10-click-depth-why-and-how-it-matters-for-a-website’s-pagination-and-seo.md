@@ -22,7 +22,7 @@ Let’s dive in!
 
 
 
-<h2 class="note">The Anatomy of a 300 Pages Website and SEO performance</h2>
+## The Anatomy of a 300 Pages Website and SEO performance
 
 
 
@@ -53,7 +53,7 @@ The tail shown in the diagram is a “tunnel” which represents a long connecte
 
 
 
-<h3 class="note">The Importance of Click Depth</h3>
+## The Importance of Click Depth
 
 
 
@@ -113,7 +113,7 @@ So, how can the pagination problem in the above example be solved?
 
 
 
-<h2 class="note">Enters the Midpoint link pagination scheme</h2>
+## Enters the Midpoint link pagination scheme
 
 
 

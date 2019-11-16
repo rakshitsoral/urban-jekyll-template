@@ -5,6 +5,7 @@ google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname: rakshitsoral1
 
+
 # Default description in social shares for the jekyll-seo-tag gem
 description: Rakshit Soral is a Digital Marketer, conversion strategist and seasoned web developer. Read his blog or contact him via Email.
 
@@ -30,7 +31,7 @@ collections:
 
 paginate: 10
 paginate_path: "/blog/:num/"
-permalink: pretty
+permalink: /:title/
 
 jekyll-archives:
   enabled:

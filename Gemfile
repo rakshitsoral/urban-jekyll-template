@@ -11,4 +11,5 @@ group :jekyll_plugins do
   gem 'jekyll-webp', '~> 1.0'
   gem 'jekyll-picture-tag', '~> 0.3.0'
   gem 'jekyll-redirect-from', '~> 0.9.0'
+  gem 'jekyll-netlify-redirects', '~> 0.1.2'
 end

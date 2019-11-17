@@ -1,8 +1,9 @@
 <h3 class="note">Related Posts:</h3>
 <div class="recent-posts">
 
-  {% for post in site.posts |  limit:3 %}
-  
+  {% for post in site.posts |  limit:4 %}
+  {% if post.title != page.title %}
+
   <div class="recent-posts-inline">
     
       {% if post.featured-image %}{% include post-featured-image.html image=post.featured-image alt=page.featured-image-alt %}{% endif %}
@@ -15,5 +16,7 @@
     <p><a href="{{ post.url }}">Read More...</a></p>
   </div>
 
+  {% endif %}
   {% endfor %}
+
 </div>

@@ -291,17 +291,22 @@ p.sow-sub-headline {
 
   ul {
     font-size: 17px;
-  }
+  
   li{
 font-size: 17px;
-  }
+  }}
   #modal
   {
     width: 50%;
     height: 50%;
   }
   p {
-    font-size: 17px;
+    font-size: 16px;
+    line-height: 1.8em;
+  }
+  .mb-style-2 blockquote p
+  {
+    font-size: 23px;
     line-height: 1.8em;
   }
 
@@ -467,8 +472,6 @@ blockquote:nth-of-type(even) footer:after {
   display: inline;
   font-family: Baskerville, Georgia, serif;
   font-style: italic;
-  font-size: 28px;
-  line-height: 46px;
 }
 
 .mb-attribution {
@@ -583,15 +586,11 @@ cite a:hover {
   background-color: #444444;
 }
 ul {
-  font-size: 22px;
   color: white;
-  line-height: 2em;
   margin: 5px 0 15px;
   padding: 0;
   li {
-    font-size: 22px;
     font-weight: 300;
-    line-height: 2em;
     list-style: none;
     position: relative;
     padding: 0 0 0 20px;

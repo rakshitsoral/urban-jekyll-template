@@ -22,9 +22,9 @@ To make you navigate through the blog in an easy way, I divided this blog into t
 <li>Jekyll: Getting Started with Jekyll in Ubuntu and Windows</li>
 </ul>
 
-<h2 class="note">Choosing the platform: Why Static Site Generator?</h2>
+## Choosing the platform: Why Static Site Generator?
 
-<h3>Personal Anecdote</h3>
+### Personal Anecdote
 
 In 2017, I created my <a href="https://huntfordigital.com/" target="_blank">first ever blog</a> on WordPress and it was an awesome experience. The process was not at all time consuming, let alone cost-effective. Since a lot of marketing experiments deal with Wordpress, it was obvious to be my initial choice. However, I wanted to experiment with something different; something which makes me learn one thing or two. 
 
@@ -37,7 +37,7 @@ Wordpress was always an alternative for me but I dislikened the whole process of
 Let’s take these advantages one-by-one:
 
 
-<h3>Cost</h3>
+### Cost
 
 One of the main reasons for choosing Jekyll over Wordpress would be the cost. 
 
@@ -45,7 +45,7 @@ Wordpress makes your pocket loaded with investments like domain name, hosting (w
 
 For me, since I have hosting and domain for about three years, this came out to Rs. 2500 (hosting for 3 years) + Rs. 1000 (domain for 1 year). With static sites such as Jekyll, the cost goes down to Rs. 0/year (or only Rs. 1000 if I want a .com domain extension). What’s more, you can host your static site for free using platforms like Github Pages and Netlify. 
 
-<h3>Speed</h3>
+### Speed
 
 Another solid reason to build a blog with a Static-site generator is speed. 
 
@@ -55,35 +55,35 @@ With Jekyll or any other static site, the whole site gets uploaded to the server
 
 Below are tests I ran using the <a href="https://tools.pingdom.com/" target="_blank">Pingdom Website Speed Test</a> on my WordPress and static site.
 
-<h4>WordPress Test</h4>
+#### WordPress Test
 
 ![Wordpress test](/images/Wordpress speed test.webp)
 
 
-<h4>Static Site Test</h4>
+#### Static Site Test
 
 ![Wordpress test](/images/static site speed test.webp)
 
 
-<h3>Security</h3>
+### Security
 
 When was the last time you heard someone telling you to update your CMS and plugins for better security in Wordpress? If the stats are to be believed, over <a href="https://www.wpwhitesecurity.com/statistics-70-percent-wordpress-installations-vulnerable/" target="_blank">70% of all WordPress installs are vulnerable to known security glitches.</a>
 
 Static sites, on the other hand, give you a free hand to experiment with your code without having to worry about malware. Static sites are built on a production machine (probably the machine you are reading this on) by static site generators, which take your code and spit out flat HTML files with CSS and JavaScript. When a user requests a page from your site, the server just sends them the file for that page, instead of building that page from various assets each time. No build process means standard hacking attacks like scripting or database security exploits just don’t work.
 
-<h2 class="note">Choosing Jekyll as a static site generator: Getting Started </h2>
+## Choosing Jekyll as a static site generator: Getting Started 
 
 The other day I was looking for options to build a static-site, the numbers are overwhelming. At the time of writing this blog, there are over 463 options to build a static site. And the numbers are increasing day by day!
 
 Remember I mentioned about trying options such as Pelican and Hugo for building a blog. It was fun playing with them but I decided to stick with Jekyll. I will tell you exactly the reasons for choosing Jekyll as a static site generator in an upcoming blog. 
 
-<h3>Prerequisite of working with Jekyll</h3>
+### Prerequisite of working with Jekyll
 
 Although you won’t require much language knowledge to get a static site up and running, I would still recommend you to polish basic HTML and CSS skills. You will require them during website customization. As an addition, I would recommend you to learn basic Git commands to work on Ubuntu. 
 
 Now that the prerequisites are known, let’s move on and learn how to build a blogging website with Jekyll for Free. 
 
-<h2 class="note">Building a FREE blog: Setting up Jekyll on Github Pages</h2>
+## Building a FREE blog: Setting up Jekyll on Github Pages
 
 <h3><b>#Step 1:</b> Installing Jekyll with Ruby</h3>
  

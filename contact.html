@@ -14,7 +14,7 @@ map:
     <form
       action="{{ site.baseurl }}/contact-success/"
       method="post"
-      class="contact-form"
+      class="contact-form" data-netlify="true"
     >
       <input type="hidden" name="_to" value="support@example.com" />
       <input type="text" name="_gotcha" style="display: none;" />
@@ -58,17 +58,58 @@ map:
           ></textarea></p></div>
          <p> <input type="submit" value="Send Message" /></p>
     </form><br>
-    <div>
-        <h3>Skype</h3>
-        <p>rakshit.soral</p>
+    <div class="grid">
+      <div class="col">
+        <dl class="contact-list">
+          <div class="contact-list__item">
+            <dt class="sr-only">Email</dt>
+            <dd>
+              <a href="mailto:rakshitsoral@gmail.com" class="c-icon-button c-icon-button--right">
+                <span class="c-icon-button__detail">rakshitsoral@gmail.com</span>
+                <span class="c-icon-button__icon c-icon-button__icon--right">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.7 23"><use href="#email-icon" /></svg>
+                </span>
+              </a>
+            </dd>
+          </div>
+          <div class="contact-list__item">
+            <dt class="sr-only">Call</dt>
+            <dd>
+              <a href="tel:9602542617" class="c-icon-button c-icon-button--right">
+                <span class="c-icon-button__detail"><span class="c-icon-button__label" aria-hidden="true">Call</span>+91 9602542617</span>
+                <span class="c-icon-button__icon c-icon-button__icon--right">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23"><use href="#phone-icon" /></svg>
+                </span>
+              </a>
+            </dd>
+          </div>
+        </dl>
       </div>
-      <div>
-        <h3>Email</h3>
-        <p>
-          <a href="mailto:{{ site.data.company.contact_email_address }}">{{
-            site.data.company.contact_email_address
-          }}</a>
-        </p>
+      <div class="col">
+        <dl class="contact-list contact-list--inline-block">
+          <div class="contact-list__item">
+            <dt class="sr-only">Skype</dt>
+            <dd>
+              <a href="#" class="c-icon-button c-icon-button--right">
+                <span class="c-icon-button__detail">rakshit.soral</span>
+                <span class="c-icon-button__icon c-icon-button__icon--right">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.7 23"><use href="#email-icon" /></svg>
+                </span>
+              </a>
+            </dd>
+          </div>
+          <div class="contact-list__item">
+            <dt class="sr-only">Twitter</dt>
+            <dd>
+              <a href="https://twitter.com/RakshitSoral" class="c-icon-button c-icon-button--right">
+                <span class="c-icon-button__detail"><span class="c-icon-button__label" aria-hidden="true"></span>@RakshitSoral</span>
+                <span class="c-icon-button__icon c-icon-button__icon--right">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 23"><use href="#phone-icon" /></svg>
+                </span>
+              </a>
+            </dd>
+          </div>
+        </dl>
       </div>
       </div>
 </section>

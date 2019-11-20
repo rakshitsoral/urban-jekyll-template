@@ -301,12 +301,12 @@ font-size: 17px;
     height: 50%;
   }
   p {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.8em;
   }
   .mb-style-2 blockquote p
   {
-    font-size: 23px;
+    font-size: 21px;
     line-height: 1.8em;
   }
 
@@ -344,6 +344,10 @@ font-size: 17px;
     overflow: hidden;
     display: inline-block;
   }
+}
+p.subtext.editable
+{
+  font-size: 19px;
 }
 .container_about {
   padding: 20px 40px 40px;
@@ -594,6 +598,8 @@ ul {
     list-style: none;
     position: relative;
     padding: 0 0 0 20px;
+    margin: 0 0 5px 0;
+
   }
 }
 ul.square {

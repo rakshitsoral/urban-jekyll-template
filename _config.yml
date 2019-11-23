@@ -42,6 +42,7 @@ plugins:
   - "jekyll-seo-tag"
   - "jekyll-paginate"
   - "jekyll-archives"
+  - "jekyll-redirect-from"
 
 exclude:
   - Gemfile

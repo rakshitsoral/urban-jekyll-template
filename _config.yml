@@ -5,6 +5,16 @@ google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname: rakshitsoral1
 
+authors:
+  rakshit:
+    name: Rakshit Soral
+    display_name: Rakshit Soral
+    gravatar: c66919cb194f96c696c1da0c47354a6a
+    email: hanzou@company.com
+    web: http://company.com
+    twitter: company
+    github: hhattori
+
 
 # Default description in social shares for the jekyll-seo-tag gem
 description: Rakshit Soral is a Digital Marketer, conversion strategist and seasoned web developer. Read his blog or contact him via Email.

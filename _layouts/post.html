@@ -4,6 +4,8 @@ layout: page
 
 <section class="diagonal">
   <div class="blog-post text-container">
+    
+    
     <div class="post-content">
         {% if page.heading %}
         <h1>{{ page.heading }}</h1>
@@ -11,16 +13,22 @@ layout: page
         <h1>{{ page.title }}</h1>
       {% endif %}        
       {% include post-title.html %}
-      <p>{{ page.date | date_to_long_string }}     {% include author.html %}</p>
+    <p class="date">
+        <span class="month">{{ page.date | date: '%b' }}</span>
+        <span class="day">{{ page.date | date: '%d' }}</span>
+        <span class="year">{{ page.date | date: '%Y' }}</span>{% include author.html %}
+      </p>    
 
 {% if page.featured-image %}{% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
       {% include share-buttons.html %}<br>
+   <p>  {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </p>
       <div id="toc"></div>
-
+     
       {{ content }}
       {% include share-buttons.html %}
 
     </div>
+    
     <section id="author-bio" class="clr">
 
         <div id="author-bio-inner">
@@ -35,13 +43,13 @@ layout: page
           <div class="author-bio-content clr">
       
             <h3 class="author-bio-title">
-              <a href="https://rakshitsoral.ga/about/" title="Visit Author Page">
+              <a href="https://rakshitsoral.com/about/" title="Visit Author Page">
                 Rakshit Soral				</a>
             </h3><!-- .author-bio-title -->
       
             
               <div class="author-bio-description clr">
-                <p><a href="https://rakshitsoral.ga/">Rakshit</a> is an accident Engineer turned Online Marketer who has established online presence of several businesses and clients. He devotes most of his time punching his keyboard, listening & singing songs, and swiping his smartphone. Follow him on Twitter <a href="https://twitter.com/RakshitSoral" rel="nofollow">@RakshitSoral</a>	</p>			</div><!-- author-bio-description -->
+                <p><a href="https://rakshitsoral.ga/">Rakshit</a> is an accidental Engineer turned Online Marketer who has established online presence of several businesses and clients. He devotes most of his time punching his keyboard, listening & singing songs, and swiping his smartphone. Follow him on Twitter <a href="https://twitter.com/RakshitSoral" rel="nofollow">@RakshitSoral</a>	</p>			</div><!-- author-bio-description -->
       
             
           </div>

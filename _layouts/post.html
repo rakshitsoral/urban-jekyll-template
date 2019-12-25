@@ -21,7 +21,7 @@ layout: page
 
 {% if page.featured-image %}{% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
       {% include share-buttons.html %}<br>
-   <p>  {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </p>
+   <p style="font-family: 'Dancing Script', cursive; font-size: 28px;">  <b>Quick summary:</b> {{ page.excerpt | strip_html | strip_newlines | truncate: 186 }} </p>
       <div id="toc"></div>
      
       {{ content }}

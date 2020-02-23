@@ -41,7 +41,7 @@ header {
 }
 
 .content {
-  background: #1C1C22;
+  background: white;
   padding: 1px 0 0 0;
   position: relative;
 }
@@ -59,7 +59,7 @@ header {
 
 section {
   padding: 150px 0;
-  background: #222831;
+  background: white;
   margin-top: -2px;
 
   &.diagonal {
@@ -78,7 +78,7 @@ section {
 
   &.hero {
     color: #ffffff;
-    background: #364156;
+    background: #34353A;
     text-align: left;
     margin-top: -100px;
     padding-top: 250px;
@@ -89,7 +89,7 @@ section {
     }
 
     p {
-      color: white;
+      color: black;
     }
 
     a:not(.button) {
@@ -99,7 +99,7 @@ section {
   }
 
   &.alternate {
-    background: #222831;
+    background: white;
   }
 }
 
@@ -108,12 +108,11 @@ section {
   padding: 13px 38px;
   border-radius: 3px;
   display: inline-block;
-  color: $brand-color;
+  color: white;
   text-decoration: none;
   cursor: pointer;
   margin: 20px 0 0 0;
-  border: 1px solid #fff;
-  background: #ffffff;
+  background: #E7553D;
   text-decoration: none !important;
 
   &:hover {
@@ -238,11 +237,11 @@ section {
 }
 
 .patterned {
-  background: #222 url($pattern);
+  background: #E7553D url($pattern);
 
   &,
   p {
-    color: white;
+    color: black;
   }
 }
 
@@ -258,15 +257,15 @@ p.sow-sub-headline {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  border: solid #364156 !important;
+  border: solid black !important;
 }
 .recent-posts-inline {
   display: flex;
   padding: 20px;
   width: 300px;
-  box-shadow: 0 1px 18px 0 rgba(0, 0, 0, 0.05),
-    0 3px 5px -1px rgba(0, 0, 0, 0.07);
-  background: #222831;
+  box-shadow: 0 1px 18px 0 black,
+    0 3px 5px -1px black;
+  background: white;
   transition: all 0.4s ease;
   flex-direction: column;
 }
@@ -274,7 +273,7 @@ p.sow-sub-headline {
   display: flex;
   margin-top: 50px;
   margin-top: 50px;
-  border: solid #364156 !important;
+  border: solid black !important;
   background: #222831;
   color: white;
   padding: 25px;
@@ -311,7 +310,7 @@ font-size: 17px;
   }
 
   .personal_text p {
-    color: white;
+    color: black;
   }
   h1 {
     font-size: 28px;
@@ -336,7 +335,7 @@ font-size: 17px;
   }
   .author-bio1 {
     margin-top: 50px;
-    background: #1C1C22;
+    background: white;
     color: white;
     padding: 25px;
     width: 100%;
@@ -590,7 +589,7 @@ cite a:hover {
   background-color: #444444;
 }
 ul {
-  color: white;
+  color: black;
   margin: 5px 0 15px;
   padding: 0;
   li {
@@ -611,7 +610,7 @@ ul.square {
       top: 5px;
       width: 10px;
       height: 10px;
-      background-color: white;
+      background-color: black;
     }
   }
 }
@@ -624,7 +623,7 @@ ul.round {
       top: 5px;
       width: 10px;
       height: 10px;
-      background-color: white;
+      background-color: black;
       border-radius: 50%;
       -moz-border-radius: 50%;
       -webkit-border-radius: 50%;

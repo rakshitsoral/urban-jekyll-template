@@ -84,7 +84,7 @@
   letter-spacing: 2.1px;
   font-weight: normal;
   margin-bottom: 12px;
-  color: white;
+  color: black;
 }
 .personal_text h4 {
   font-size: 16px;
@@ -92,18 +92,18 @@
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   margin-bottom: 20px;
-  color: white;
+  color: black;
 }
 .personal_text h3 {
   font-size: 48px;
   text-transform: uppercase;
   margin-bottom: 15px;
-  color: white;
+  color: black;
 }
 .personal_text p {
   font-family: "Roboto", sans-serif;
   max-width: 540px;
-  color: white;
+  color: black;
   margin-bottom: 40px;
 }
 .personal_text .basic_info li {
@@ -113,7 +113,7 @@
   position: relative;
   padding-left: 40px;
   font-size: 16px;
-  color: white;
+  color: black;
 }
 .personal_text .basic_info li a i {
   position: absolute;
@@ -178,7 +178,7 @@ stylesheet. */
 body {
   font-size: 22px;
   font-family: 'Merriweather', serif;
-  color: white;
+  color: black;
 }
 /* Make sure that padding behaves as expected */
 * {
@@ -269,8 +269,7 @@ body {
   box-sizing: border-box;
   padding: 1px 0 0 0;
   text-align: center;
-  background-color: white;
-  border-radius: 4px;
+  background-color: #E7553D;
   margin-top: 30px;
 }
 .wrapper {

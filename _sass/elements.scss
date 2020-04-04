@@ -94,8 +94,8 @@ p {
     margin-block-end: 1.848rem;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-  font-family: 'Merriweather', serif;
-  font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
   font-weight: 300;
   line-height: 2em;
   color: black;
@@ -239,7 +239,7 @@ body{
     //Star Footer
     footer{
       margin-top: 50px;
-      @include txtShadow(3px, 5px, 5px, #000);
+      // @include txtShadow(3px, 5px, 5px, #000);
 		}
     //End footer
 

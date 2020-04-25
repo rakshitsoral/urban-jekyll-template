@@ -258,6 +258,11 @@ body {
   // width: 100vw;
 }
 
+.buttonzone:hover
+{
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
 #downloadbutton,
 #contactmebutton {
   display: inline-block;

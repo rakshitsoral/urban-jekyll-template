@@ -1,8 +1,19 @@
-<h3><a href="{{ site.baseurl }}{{ include.post.url }}">{{ include.post.title }}</a></h3>
+<div class="blog-post text-container">
 
-{% include post-title.html post=post %}
-<div class="post-content">
-	{{ include.post.excerpt }}
-
-	<p><a href="{{ site.baseurl }}{{ include.post.url }}">Read More &rarr;</a></p>
-</div>
+	<ul class="cards">
+	  <li class="cards_item">
+		<div class="card">
+		  <div class="img1">{% if post.featured-image %}{% include post-featured-image.html image=post.featured-image alt=page.featured-image-alt %}{% endif %}
+  </div>
+		  <div class="card_content">
+			<h3 class="card_title"><a href="{{ site.baseurl }}{{ include.post.url }}">{{ include.post.title }}</a></h3>
+  {% include post-title.html post=post %}
+  
+			<p class="card_text">	{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}
+  </p>
+  <button class="btn-blog card_btn-blog"><a href="{{ site.baseurl }}{{ include.post.url }}"></a>Read More</button>
+     </div>
+		</div>
+	  </li>
+	  </ul>
+	  </div>

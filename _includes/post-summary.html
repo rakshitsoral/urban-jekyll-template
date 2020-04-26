@@ -1,9 +1,7 @@
-<div class="blog-post text-container">
 
-	<ul class="cards">
-	  <li class="cards_item">
+
 		<div class="card">
-		  <div class="img1">{% if post.featured-image %}{% include post-featured-image.html image=post.featured-image alt=page.featured-image-alt %}{% endif %}
+		  <div >{% if post.featured-image %}{% include post-featured-image.html image=post.featured-image alt=page.featured-image-alt %}{% endif %}
   </div>
 		  <div class="card_content">
 			<h3 class="card_title"><a href="{{ site.baseurl }}{{ include.post.url }}">{{ include.post.title }}</a></h3>
@@ -11,9 +9,7 @@
   
 			<p class="card_text">	{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}
   </p>
-  <button class="btn-blog card_btn-blog"><a href="{{ site.baseurl }}{{ include.post.url }}"></a>Read More</button>
+  <div class="buttonzone">
+	<form action="{{ site.baseurl }}{{ include.post.url }}"> <input type="submit" name="submit" value="Read More" id="downloadbutton" style="margin-right: 30px"></form></div>
      </div>
 		</div>
-	  </li>
-	  </ul>
-	  </div>

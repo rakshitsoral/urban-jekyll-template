@@ -146,6 +146,8 @@ hr {
   display: flex;
   flex-direction: row;
   overflow: hidden;
+  margin-bottom: 60px;
+
 }
 
 .card_content {
@@ -175,4 +177,13 @@ hr {
 
 .btn-blog:hover {
   background-color: rgba(255, 255, 255, 0.12);
+}
+
+@media (max-width: 600px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
 }

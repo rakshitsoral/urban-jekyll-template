@@ -312,6 +312,11 @@ font-size: 17px;
   .personal_text p {
     color: black;
   }
+  .cards 
+  {
+    flex-direction: column;
+  }
+
   h1 {
     font-size: 28px;
   }
@@ -1062,7 +1067,7 @@ ul.curved-round {
   }
 .blog-feat-img{
   height: 100%;
-  width: 500px  ;
+  width: 1000px  ;
 }
 
   

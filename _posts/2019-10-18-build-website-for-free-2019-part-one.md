@@ -4,7 +4,7 @@ categories:
   - blogging
 featured-image: blog.webp
 slug: build-blog-for-free-part-one
-excerpt: Today, I’m going to show you a VERY simple technique for building a Blog for FREE. Although much has been written about building a blog website online, there is little to negligible information about how to build a blog from scratch without bearing any cost at all. There are articles online that must have shown you how to buy web hosting, how to buy a domain name, how to install WordPress and write your first blog etc. etc. 
+excerpt: In this article, I will walk you through the first part of building a blog for free. I will tell you the skills that will help you to build a static site blog for free.  
 redirect_from: "/blogging/2019/10/18/build-blog-for-free-part-one/"
 
 ---

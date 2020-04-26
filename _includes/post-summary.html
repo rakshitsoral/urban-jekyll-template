@@ -7,7 +7,7 @@
 			<h3 class="card_title"><a href="{{ site.baseurl }}{{ include.post.url }}">{{ include.post.title }}</a></h3>
   {% include post-title.html post=post %}
   
-			<p class="card_text">	{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}
+			<p class="card_text">	{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}
   </p>
   <div class="buttonzone">
 	<form action="{{ site.baseurl }}{{ include.post.url }}"> <input type="submit" name="submit" value="Read More" id="downloadbutton" style="margin-right: 30px"></form></div>

@@ -60,7 +60,7 @@ Sure, there is a lot that can be extracted from this character, but here are som
 <li><b>With great powers come great responsibility</b> - After becoming the spiderman, Peter had the option of utilizing his prowess for his personal gain, but he chose not to do so. He is not under any obligation or ordered by someone to help people, but it’s just his way of life to help and save people. </li>
 <li><b>Don’t chase your love, but chase your ambitions</b> - Peter loved MJ more than anyone else in his life. MJ, however, was uncertain and unclear about her feelings for peter. Throughout some episodes, she was seen with multiple men but hardly she loved anyone. There are instances, where Peter found it hard to maintain a balance between his professional and love life because of MJ. But Peter still somehow managed to be the spiderman, even at the cost of losing his girlfriend. </li>
 <li><b>Don’t let your darker side overpower your brighter side</b> - After some episodes, Peter Parker went hold of the darker shade of power of symbiosis, which enhances his strength and magnifies his aggression. Even spiderman couldn’t resist and almost embraced the darker side of the symbiosis power. However, the moment he recognized the sinister side of the Venom he broke the symbiosis.</li>
-</ul>
+
 
 <h2> Final Words </h2>
 

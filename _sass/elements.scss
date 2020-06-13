@@ -568,3 +568,20 @@ $white: white;
 	flex-direction: column;
 }
 
+.col-6
+{
+  flex: 0 0 50%;
+  max-width: 50%;
+  border: 2px solid lightgrey;
+
+
+}
+
+@media (max-width: 600px)
+{
+  .col-6
+  {
+    max-width: 100%;
+    border: 2px solid lightgrey;
+  }
+}

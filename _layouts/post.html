@@ -21,7 +21,7 @@ layout: page
 
 {% if page.featured-image %}{% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
       {% include share-buttons.html %}<br>
-   <p style="font-family: 'Prompt', sans-serif; font-size: 26px;">  <b>TL;DR:</b> {{ page.excerpt | strip_html | strip_newlines | truncate: 186 }} </p>
+   <i><p style="font-family: 'Prompt', sans-serif; font-size: 22px;">  <b>TL;DR:</b> {{ page.excerpt | strip_html | strip_newlines | truncate: 186 }} </p></i>
    <hr class="one">  
    <div id="toc"></div>
      

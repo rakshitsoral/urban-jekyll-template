@@ -113,6 +113,8 @@ social_icons:
   - RSS
 
 ############################################################
+
+
 # Site configuration for the WebP Generator Plugin
 # The values here represent the defaults if nothing is set
 webp:

@@ -5,11 +5,12 @@
 <html lang="en">
   <head>
 
-    {% if page.featured-image %}
+    {% if post.featured-image %}
     <meta property="og:image" content="{{ site.url }}/{{ page.featured-image }}" />
+    <meta property="og:description" content="{{ page.title }}" />
+
 {% endif %}
 
-<meta property="og:description" content="{{ page.title }}" />
      
   
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />

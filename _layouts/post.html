@@ -3,34 +3,69 @@ layout: page
 ---
 
 <section class="diagonal">
-  <div class="blog-post text-container">
-   
-    
-    <div class="post-content">
-        {% if page.heading %}
-        <h1>{{ page.heading }}</h1>
-      {% elsif page.title %}
-        <h1>{{ page.title }}</h1>
-      {% endif %}        
-      {% include post-title.html %}
-    <p class="date">
-        <span class="month">{{ page.date | date: '%b' }}</span>
-        <span class="day">{{ page.date | date: '%d' }}</span>
-        <span class="year">{{ page.date | date: '%Y' }}</span>{% include author.html %}
-      </p>    
+  <div class="blog-post text-container" style="display: grid;">
 
-{% if page.featured-image %}{% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}
-      {% include share-buttons.html %}<br>
-   <i><p style="font-family: 'Prompt', sans-serif; font-size: 22px;">  <b>TL;DR:</b> {{ page.excerpt | strip_html | strip_newlines | truncate: 186 }} </p></i>
-   <hr class="one">  
-   <div id="toc"></div>
-     
-      {{ content }}
-      {% include share-buttons.html %}
+    <div class="row">
 
-    </div>
-    
-    <section id="author-bio" class="clr">
+      <!-- Sidebar -->
+          <div class="col-sm-4" style="max-width: 33.333333">
+            {% include sidebar.html %}
+
+          </div>
+      
+  
+      <!-- Post -->        
+      <div class="col-sm-8">
+        <div class="mainheading">              
+                  
+                  <!-- Post Categories -->
+                  <div class="after-post-tags">
+                    {% if post.tags.size > 0 %}
+  # Display tags
+{% endif %}
+                      <ul class="tags">
+                          {% assign sortedCategories = page.categories | sort %}
+                          {% for category in sortedCategories %}
+                          <li>
+                           <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
+                          </li>
+                          {% endfor %}
+                      </ul>
+                  </div>
+                  <!-- End Categories -->
+                  
+                  <!-- Post Title -->
+          <h1>{{ page.title }}</h1> 
+                  
+        </div>
+        <!-- Post Date -->
+        <p>
+          <small>
+            <p class="date">
+             <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
+            {% if page.last_modified_at %}
+            (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+            {% endif %}
+            </small>    
+              </small>
+          </p>
+  
+        <!-- Post Featured Image -->
+
+        {% if page.featured-image %}{% include post-featured-image.html image=page.featured-image alt=page.featured-image-alt %}{% endif %}<br><br>
+        <!-- End Featured Image -->
+        {% include share-buttons.html %}
+
+        <i><p style="font-family: 'Prompt', sans-serif; font-size: 22px;">  <b>TL;DR:</b> {{ page.excerpt | strip_html | strip_newlines | truncate: 186 }} </p></i>
+        <hr class="one">  
+        <div id="toc"></div>
+  
+        <!-- Post Content -->
+        <div class="article-post">
+          {{content}}
+                  <div class="clearfix"></div>
+        </div>
+<section id="author-bio" class="clr">
 
         <div id="author-bio-inner">
       
@@ -50,7 +85,7 @@ layout: page
       
             
               <div class="author-bio-description clr">
-                <p><a href="https://rakshitsoral.ga/">Rakshit</a> is an accidental Engineer turned Online Marketer who has established online presence of several businesses and clients. He devotes most of his time punching his keyboard, listening & singing songs, and swiping his smartphone. Follow him on Twitter <a href="https://twitter.com/RakshitSoral" rel="nofollow">@RakshitSoral</a>	</p>			</div><!-- author-bio-description -->
+                <p><a href="https://rakshitsoral.com/">Rakshit</a> is an accidental Engineer turned Online Marketer who has established online presence of several businesses and clients. He devotes most of his time punching his keyboard, listening & singing songs, and swiping his smartphone. Follow him on Twitter <a href="https://twitter.com/RakshitSoral" rel="nofollow">@RakshitSoral</a>	</p>			</div><!-- author-bio-description -->
       
             
           </div>

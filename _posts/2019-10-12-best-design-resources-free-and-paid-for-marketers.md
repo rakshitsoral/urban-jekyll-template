@@ -7,6 +7,8 @@ featured-image: design.jpg
 slug: best-design-resources-free-and-paid-for-marketers
 excerpt: In this article, I will mention some of my favourite design resources that will help you implement design as a marketer. For example, Gravit designer, Figma, duotone, squoosh, remove.bg, etc.
 redirect_from: "/digital-marketing/design/2019/10/12/best-design-resources-free-and-paid-for-marketers/"
+author: Rakshit 
+featured: true
 
 ---
 While I don’t consider myself as a designer, I see design as an essential skill for marketers. No matter if you are someone who fancy writing awesome content; someone who gets busy sending newsletters to an audience, or someone who is earning as a freelancer. Marketing without Design is like coconut without water. Here's why, I love to try different tools and enhance my creativity. Here are some design resources I prefer to use as a marketer:

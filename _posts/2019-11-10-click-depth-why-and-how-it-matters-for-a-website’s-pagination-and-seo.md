@@ -7,6 +7,7 @@ slug: click-depth-website-pagination-seo
 excerpt: In this article, we will learn how to implement website pagination in a 300 pages website. We will learn this in a way such that it will help in website SEO and achieve rankings. 
 redirect_from: "/seo/2019/11/10/click-depth-website-pagination-seo/"
 author: Rakshit Soral
+featured: true
 
 ---
 Website pagination is good from a human’s point of view; however, it’s bad for a search engine crawler if not optimized well.

@@ -132,11 +132,17 @@ hr {
   .cards_item {
     width: 50%;
   }
+  .listfeaturedtag .wrapthumbnail {
+   width: 100%;
+  }
 }
 @media (min-width: 56rem) {
   .cards_item {
     width: 100%;
   }
+  .listfeaturedtag .wrapthumbnail {
+    width: 100%;
+   }
 }
 
 .card {
@@ -265,9 +271,8 @@ hr {
   border-radius: 100%;
 }
 .listfeaturedtag .wrapthumbnail {
-  height: 258px;
+  height: 386px;
   flex: 0 0 auto;
-  width: 100%;
 }
 .card-block {
   -webkit-box-flex: 1;
@@ -300,4 +305,11 @@ hr {
 }
 .card-title {
   margin-bottom: .75rem;
+}
+@media (max-width: 600px) {
+  .listfeaturedtag .wrapthumbnail {
+    height: 386px;
+    flex: 0 0 auto;
+    width: 100%;
+}
 }

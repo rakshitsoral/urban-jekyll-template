@@ -7,18 +7,25 @@
         
     <div class="sidebar-section">
         <h3 class="note"><span>Useful</span></h3>
-        <ul style="list-none;">
-        <li><a target="_blank" href="https://m.do.co/c/84c9b45d0c47">Digital Ocean</a></li>
-        <li><a target="blank" href="https://www.cloudways.com/en/pricing.php?id=153986&a_bid=005da123">Cloudways</a></li>
-        <li><a target="blank" href="http://shareasale.com/r.cfm?b=875645&u=1087935&m=41388&urllink=&afftrack=">Page Speed Test</a></li>
-        <li><a target="blank" href="https://www.wowthemes.net/affiliate-area/?utm_source=fromjekyllsidebar&utm_campaign=sidebar">Partner with Us</a></li>
-        <li><a target="blank" href="https://www.wowthemes.net/category/jekyll-themes/">Our Jekyll Themes</a></li>
-        </ul>
+        <ul class="round">
+            <ul>
+                {% assign categories_list = site.categories %}
+                  {% if categories_list.first[0] == null %}
+                    {% for category in categories_list %}
+                      <li><a href="{{site.url}}/category/{{category | first}}">{{ category | camelcase }} ({{ site.tags[category].size }})</a></li>
+                    {% endfor %}
+                  {% else %}
+                    {% for category in categories_list %}
+                      <li><a href="{{site.url}}/category/{{category | first}}">{{ category[0] | camelcase }} ({{ category[1].size }})</a></li>
+                    {% endfor %}
+                  {% endif %}
+                {% assign categories_list = nil %}
+                </ul>
     </div>
         
     <div class="sidebar-section">
          <h2 class="note"><span>Recommended</span></h2><br>
-       <a href="https://easydigitaldownloads.com/?ref=2135" title="Sell digital downloads with WordPress, for free"><img src="https://easydigitaldownloads.com/wp-content/uploads/2015/02/300x250-2.png" alt="Sell digital downloads with WordPress, for free" /></a>
+       <a href="https://easydigitaldownloads.com/?ref=2135" title="Marketing Ebooks download, for free"><img src="{{ site.baseurl }}/images/Marketing ebooks download.webp" alt="Sell digital downloads with WordPress, for free" /></a>
     </div>
         
 </div>

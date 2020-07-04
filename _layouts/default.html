@@ -89,16 +89,28 @@
 
     </a>
 
-    <footer class="diagonal">
-      <div class="container">
-        <p class="editor-link">
-          <a href="cloudcannon:collections/_data/footer.yml" class="btn"
-            ><strong>&#9998;</strong> Update Footer Sections</a
-          >
-        </p>
+   <!-- Begin Footer
+    ================================================== -->
+    <footer class="footer">
 
-        <div class="footer-columns">
-          {% for column in site.data.footer %}
+      <div class="container">
+
+          <div class="row">
+              <div class="col-sm-3">
+              <div class="footer-widget">
+                <a href="{{ site.baseurl }}/"
+                ><img
+                  src="{{ site.baseurl }}/images/Rakshit logo.webp"
+                  alt="Rakshit Soral"
+                  class="rounded-corners"
+                  width="200" height="150"
+              /></a>
+              </div>
+              </div>
+
+              <div class="col-sm-3">
+              <div class="footer-widget">
+              {% for column in site.data.footer %}
           <ul class="footer-links" style="color: white">
             <li>
               <h2>{{ column.title }}</h2>
@@ -131,30 +143,56 @@
             {% endfor %}
           </ul>
           {% endfor %}
+              </div>
+              </div>
 
-          <ul class="footer-links" style="color: white">
+              <div class="col-sm-3">
+              <div class="footer-widget">
+              <h5 class="title">Author</h5>
+              <ul>
+              <li><a href="https://www.wowthemes.net/premium-themes-templates/">About Us</a></li>
+              <li><a target="_blank" href="https://www.wowthemes.net/affiliate-area/">Affiliates</a></li>
+              <li><a href="https://www.wowthemes.net/terms-and-conditions/">License</a></li>
+              <li><a href="https://www.wowthemes.net/blog/">Blog</a></li>
+              <li><a href="https://www.wowthemes.net/support/">Contact</a></li>
+              </ul>
+              </div>
+              </div>
+
+              <div class="col-sm-3">
+              <div class="footer-widget textwidget">
+                <ul class="footer-links" style="color: white">
             
-            <li><div class=”newsletter-container”>
-              <h3 class=”newsletter-title” style="color: white">Subscribe to Weekly Newsletter</h3>
-              <form class=”newsletter-form” style="color: white" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=RakshitSoral', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p class=”newsletter-text” style="color: white">Get new posts to your inbox</p><p><input class=”newsletter-email” type="text" name="email"/></p><input type="hidden" value="RakshitSoral" name="uri"/><input type="hidden" name="loc" value="en_US"/><input style="font-size: 30px;" class=”newsletter-submit” type="submit" value="Subscribe" /></form></div>
-             
-            </li>
-            <li>OR</li>
-            <li> <a href="{{ site.baseurl }}/feed.xml"
-              >{% include social-icon.html icon="RSS" %} Subscribe with RSS</a
-            ></li>
-          </ul>
-        </div>
+                  <li><div class=”newsletter-container”>
+                    <h3 class=”newsletter-title” style="color: white">Subscribe to Weekly Newsletter</h3>
+                    <form class=”newsletter-form” style="color: white" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=RakshitSoral', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p class=”newsletter-text” style="color: white">Get new posts to your inbox</p><p><input class=”newsletter-email” type="text" name="email"/></p><input type="hidden" value="RakshitSoral" name="uri"/><input type="hidden" name="loc" value="en_US"/><input style="font-size: 30px;" class=”newsletter-submit” type="submit" value="Subscribe" /></form></div>
+                   
+                  </li>
+                  <li>OR</li>
+                  <li> <a href="{{ site.baseurl }}/feed.xml"
+                    >{% include social-icon.html icon="RSS" %} Subscribe with RSS</a
+                  ></li>
+                </ul>                
+              </div>
+              </div>
+          </div>
+
+          <div class="copyright">
+              <p class="pull-left">
+              Copyright © {{ site.time | date: "%Y" }} {{ site.name }}.
+              </p>
+              <p class="pull-right">
+              <!-- Please, leave credit to author unless you own a commercial license: https://www.wowthemes.net/freebies-license/ --> 
+              <a target="_blank" href="https://www.wowthemes.net/free-jekyll-template-affiliates/">"Affiliates Theme"</a> - Design & Code by WowThemes.net
+              </p>
+              <div class="clearfix"></div>
+          </div>
+
       </div>
 
-      <div class="legal-line">
-        <p class="container">
-          &copy; {{ site.time | date: "%Y" }}
-          {{ site.data.company.title }} &bull; Template by
-          <a href="http://cloudcannon.com/">CloudCannon</a>
-        </p>
-      </div>
-    </footer>
+  </footer>
+  <!-- End Footer
+  ================================================== -->
 
     <script>
       document.getElementById("open-nav").onclick = function() {

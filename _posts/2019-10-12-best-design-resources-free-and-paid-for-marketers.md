@@ -35,6 +35,7 @@ One skill that I currently lack is drawing illustrations and icons. Ergo, I reco
 <li><a href="https://undraw.co/" target="_blank">unDraw</a>: An opensource collection of colorful illustrations that are fun to have in your design.</li>
 <li><a href="https://www.humaaans.com/" target="_blank">Humaans</a>: I rarely use this, but I find it amazing resource to mix-match with different scenes and characters. You can use it in your ebooks, infographics, social media graphics, etc.</li>
 <li><a href="https://www.freepik.com/" target="_blank">Freepik</a>: This resource need no special mention. I think most of you might be aware of Freepik website that lets you use free of cost graphics and illustrations in your projects. </li>
+<li><a href="https://creazilla.com/" target="_blank">Creazilla</a>: Oh boy, I would recommend you Creazilla over Freepik anyday. Not only does it contains free illustrations but also free silhouttes and cliparts. </li>
 </ul>
 
 ## Summing up

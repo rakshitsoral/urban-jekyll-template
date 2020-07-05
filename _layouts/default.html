@@ -148,27 +148,31 @@
 
               <div class="col-sm-3">
               <div class="footer-widget">
-              <h5 class="title">Author</h5>
-              <ul>
-              <li><a href="https://www.wowthemes.net/premium-themes-templates/">About Us</a></li>
-              <li><a target="_blank" href="https://www.wowthemes.net/affiliate-area/">Affiliates</a></li>
-              <li><a href="https://www.wowthemes.net/terms-and-conditions/">License</a></li>
-              <li><a href="https://www.wowthemes.net/blog/">Blog</a></li>
-              <li><a href="https://www.wowthemes.net/support/">Contact</a></li>
-              </ul>
+                <ul>
+                  <li>
+                    <h2 style="color: white;">Categories</h2>
+                  </li>
+                  {% assign categories_list = site.categories %}
+                    {% if categories_list.first[0] == null %}
+                      {% for category in categories_list %}
+                        <li><a href="{{site.url}}/category/{{category | first}}">{{ category | camelcase }} ({{ site.tags[category].size }})</a></li>
+                      {% endfor %}
+                    {% else %}
+                      {% for category in categories_list %}
+                        <li><a href="{{site.url}}/category/{{category | first}}">{{ category[0] | camelcase }} ({{ category[1].size }})</a></li>
+                      {% endfor %}
+                    {% endif %}
+                  {% assign categories_list = nil %}
+                  </ul>
               </div>
               </div>
 
               <div class="col-sm-3">
               <div class="footer-widget textwidget">
                 <ul class="footer-links" style="color: white">
-            
-                  <li><div class=”newsletter-container”>
-                    <h3 class=”newsletter-title” style="color: white">Subscribe to Weekly Newsletter</h3>
-                    <form class=”newsletter-form” style="color: white" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=RakshitSoral', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p class=”newsletter-text” style="color: white">Get new posts to your inbox</p><p><input class=”newsletter-email” type="text" name="email"/></p><input type="hidden" value="RakshitSoral" name="uri"/><input type="hidden" name="loc" value="en_US"/><input style="font-size: 30px;" class=”newsletter-submit” type="submit" value="Subscribe" /></form></div>
-                   
+                  <li>
+                    <h2 style="color: white;">RSS</h2>
                   </li>
-                  <li>OR</li>
                   <li> <a href="{{ site.baseurl }}/feed.xml"
                     >{% include social-icon.html icon="RSS" %} Subscribe with RSS</a
                   ></li>
@@ -178,17 +182,15 @@
           </div>
 
           <div class="copyright">
-              <p class="pull-left">
-              Copyright © {{ site.time | date: "%Y" }} {{ site.name }}.
-              </p>
-              <p class="pull-right">
-              <!-- Please, leave credit to author unless you own a commercial license: https://www.wowthemes.net/freebies-license/ --> 
-              <a target="_blank" href="https://www.wowthemes.net/free-jekyll-template-affiliates/">"Affiliates Theme"</a> - Design & Code by WowThemes.net
-              </p>
-              <div class="clearfix"></div>
-          </div>
-
-      </div>
+            <p class="pull-left">
+            Copyright © {{ site.time | date: "%Y" }} {{ site.name }}.
+            </p>
+            <p class="pull-right">
+            <!-- Please, leave credit to author unless you own a commercial license: https://www.wowthemes.net/freebies-license/ --> 
+            <a target="_blank" href="https://www.wowthemes.net/free-jekyll-template-affiliates/">"Affiliates Theme"</a> - Design & Code by WowThemes.net
+            </p>
+            <div class="clearfix"></div>
+        </div>
 
   </footer>
   <!-- End Footer

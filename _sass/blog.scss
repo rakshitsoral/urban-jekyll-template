@@ -214,6 +214,7 @@ hr {
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
     height: 100%;
+    width: 317px;
   }
 
   .card {
@@ -289,8 +290,9 @@ hr {
   border-radius: 100%;
 }
 .listfeaturedtag .wrapthumbnail {
-  height: 386px;
+  height: 430px;
   flex: 0 0 auto;
+  width: 318px;
 }
 .card-block {
   -webkit-box-flex: 1;

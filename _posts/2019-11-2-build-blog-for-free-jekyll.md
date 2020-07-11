@@ -8,7 +8,6 @@ featured-image: Jekyll free blog.webp
 slug: build-blog-for-free-part-two-jekyll
 excerpt: This is the part 2 of series "how to build a blog for free". In this part, I will walk you through step-by-step process of installing Jekyll and build a blog website for free. 
 toc: true
-redirect_from: "/blogging/2019/11/02/build-blog-for-free-part-two-jekyll/"
 
 
 ---

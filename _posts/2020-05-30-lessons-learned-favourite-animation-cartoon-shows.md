@@ -2,10 +2,10 @@
 title: Lessons learned from my favourite Animated Shows and Cartoons
 categories:
   - Life
-featured-image: Naruto cover.webp
+featured-image: Cartoons.webp
 slug: lessons-learned-favourite-animation-cartoon-shows
 excerpt: So I have been watching cartoons since I was a kid. And I still watch them as they make me nostalgic laugh countlessly without having to judge the characters of the show. This article consists of some lessons I learned from my favourite animated shows and cartoons.  
-featured: false
+featured: true
 
 ---
 

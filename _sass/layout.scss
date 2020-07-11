@@ -1455,7 +1455,7 @@ a {
   align-items: center;
 }
 .link-5 {
-  color: #21262f;
+  color: white;
   text-decoration: none;
 }
 .div-block-4 {
@@ -1533,6 +1533,21 @@ b, strong {
     margin-right: 36px;
     background: url(/images/arrow-54-64.png) no-repeat;
     transition: all 0.3s ease 0s;
+}
+.justify-content-center {
+  -webkit-box-pack: center!important;
+  -webkit-justify-content: center!important;
+  -ms-flex-pack: center!important;
+  justify-content: center!important;
+}
+.text-right {
+  text-align: right!important;
+}
+.beforefooter {
+  background-image: url(/images/abstract1.webp);
+  padding: 50px 0;
+  max-width: 100%;
+  margin: 0px auto;
 }
 
 @media (max-width: 600px)

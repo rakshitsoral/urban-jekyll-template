@@ -138,7 +138,7 @@ You can find and preview Jekyll themes on the following galleries:
 
 To install a theme, navigate to the theme’s Github Repo and fork it. In my case, I used Urban Jekyll template on my Jekyll website. Here’s a fork for the same:
 
-![Forking the repo](/images/Forking the repo.webp)
+![Forking the repo](/images/Forking the repo.webp){:class="lazyload"}
 
 
 The next step will be to rename the repository to username.github.io. In my case, I shall rename it to rakshitsoral.github.io.
@@ -164,7 +164,7 @@ Run the site on your local machine:
 
 Navigate to <a href="http://localhost:4000/" target="_blank">http://localhost:4000/</a> and Voilla, your site is live. It should look like the following image:
 
-![Urban Jekyll Template](/images/urban jekyll template.webp)
+![Urban Jekyll Template](/images/urban jekyll template.webp){:class="lazyload"}
 
 It doesn’t look bad, does it? 
 

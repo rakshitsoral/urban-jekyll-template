@@ -19,7 +19,7 @@ Trust me, Naruto is one such anime that teaches you a lot about life. The main c
 
 Not only Naruto, but the series is also jammed up with a few characters that make you learn many things. Here’s an infographic I found somewhere that includes all characters and lessons learned from them:
 
-![Naruto shippuden Infographic](/images/Naruto lessons learned Infographic.webp)
+![Naruto shippuden Infographic](/images/Naruto lessons learned Infographic.webp){:class="lazyload"}
 
 
 ## #2. TrollHunters (Tales of Arcadia)
@@ -27,7 +27,7 @@ TrollHunters is one such series that beats the stigma about animated series bein
 
 The series makes you learn an important lesson: it’s ok to not belong; it’s ok to be wrong. There are some creatures and monsters in this animated series who undergo various transformations, and the lesson that the writer wants to give is that it’s ok to be them.  There’s no reason to hide who you are, or change yourself to be a part of something.
 
-![Trollhunters](/images/Trollhunters.webp)
+![Trollhunters](/images/Trollhunters.webp){:class="lazyload"}
 
 
 ## #3. Dungeons and Dragons

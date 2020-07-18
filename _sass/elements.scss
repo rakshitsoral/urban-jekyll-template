@@ -412,12 +412,18 @@ body{
  }
  
  #author-bio {
+  background: #efefef;
+  background-clip: content-box;
+  margin: 20px auto;
+  padding: 20px 0;
   position: relative;
-  margin-top: 30px;
   padding-top: 30px;
-  border-top-width: 1px;
-  border-style: solid;
-  border-color: #364156;
+  background: #fff;
+    box-shadow: 0 5px 40px 0 rgba(212, 221, 245, 0.9);
+  border: 1px solid #e7e7e7;
+  
+  
+
 }
 #author-bio #author-bio-inner {
   display: -webkit-box;

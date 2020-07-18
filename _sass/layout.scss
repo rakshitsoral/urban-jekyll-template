@@ -59,7 +59,7 @@ header {
 
 section {
   padding: 50px 0;
-  background: white;
+  background: #F6F8FE;
   margin-top: -2px;
 
   &.diagonal {
@@ -74,7 +74,7 @@ section {
   }
 
   &.hero {
-    color: #ffffff;
+    color: #FDFDFF;
     background: #34353A;
     text-align: left;
     margin-top: -100px;
@@ -254,8 +254,7 @@ p.sow-sub-headline {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  border: 1px solid rgba(0,0,0,.125);
-  border-radius: .25rem;
+ 
 }
 .recent-posts-inline {
   display: flex;
@@ -1628,8 +1627,6 @@ span.post-name, span.post-date, span.author-meta {
   display: inline-block;
 }
 .listfeaturedtag {
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 .h-100 {

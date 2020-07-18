@@ -95,7 +95,7 @@
   border: 1px solid black;
   
   border-left: 50px solid #e7553d;
-  background: white !important;
+  background: #F6F8FE !important;
 }
 hr {
   height: 8px;
@@ -148,8 +148,7 @@ hr {
 .card {
   border-radius: 0.25rem;
   border: black solid !important;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-  display: flex;
+  box-shadow: 0 5px 40px 0 rgba(212, 221, 245, 0.9);  display: flex;
   flex-direction: column;
   overflow: hidden;
   margin-bottom: 60px;
@@ -243,6 +242,7 @@ hr {
   padding-right: 15px;
   padding-left: 15px;
   padding-bottom: 15px;
+  
  
 }
 .mainheading {
@@ -265,6 +265,15 @@ hr {
 .sidebar {
   max-width: 340px;
   font-size: 15px;
+  background-color: #FFFFFF;
+  box-shadow: 0 5px 40px 0 rgba(212, 221, 245, 0.9);
+  border: 1px solid #e7e7e7;
+
+}
+.sidebar-section
+{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .card1
 {
@@ -278,9 +287,10 @@ hr {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #FFFFFF;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
+    box-shadow: 0 5px 40px 0 rgba(212, 221, 245, 0.9);
 }
 .author-thumb {
   width: 40px;

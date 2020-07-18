@@ -66,7 +66,7 @@ Sure, there is a lot that can be extracted from this character, but here are som
 <h2> Final Words </h2>
 
 So these are some of the important lessons I learned from watching anime, cartoons, and anmated shows. I am sure, the list is going to be more. I will update it from time-to-time. 
-I don’t know about you guys, but I’d recommend I’d not bore you with the philosophy anymore but I’d like you to take some time off for yourself and watch your favorite cartoon show every week or at least once a month. Observe how it feels to act like a child and smile while you’re doing something that the world considers lame or childish. Trust me you’d feel better and happier. 
+I don't have enough time to write more so let's cut to the chase and get this straight: Even in the most difficult days, take some time off for yourself and watch your favorite cartoon show every week or at least once a month. Observe how it feels to act like a child and smile while you’re doing something that the world considers lame or childish. Trust me you’d feel better and happier. 
 
 
 

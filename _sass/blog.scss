@@ -213,8 +213,9 @@ hr {
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
     height: 100%;
-    width: 317px;
+    width: 370px;
   }
+
 
   .card {
     display: flex;
@@ -263,11 +264,13 @@ hr {
   clear: both;
 }
 .sidebar {
-  max-width: 340px;
   font-size: 15px;
   background-color: #FFFFFF;
   box-shadow: 0 5px 40px 0 rgba(212, 221, 245, 0.9);
   border: 1px solid #e7e7e7;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: 10px;
 
 }
 .sidebar-section

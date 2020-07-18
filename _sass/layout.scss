@@ -1568,13 +1568,13 @@ b, strong {
   }
   .heading.home.ipad.mobileside.mobileportrait.mobile
   { margin-right: 15px;
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 30px;
+    line-height: 45px;
   }
   .description.left.iapd.mobile
   {
     font-size: 20px;
-    line-height: 27px;
+    line-height: 30px;
   }
   .w-container
   {
@@ -1604,11 +1604,13 @@ b, strong {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    padding-top: 250px;
   }
   .header-collumn.ipad.mobile.w-row
   {
     display: flex;
     flex-direction: column;
+    padding-top: 40px;
   }
   .image-vector
   {

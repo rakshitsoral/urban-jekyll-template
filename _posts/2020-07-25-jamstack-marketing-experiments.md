@@ -78,9 +78,11 @@ For starters, here are definitely some technologies that stand out from others:
 JS is everywhere, even in JAMStack. You might have probably heard the terms Single Page Applications (SPA) and Progressive Web Apps (PWA). There is a bunch of frameworks or libraries that help you to build those: Angular, React, and Vuejs. In the JAMstack, you will use these technologies to deliver safe, fast, and dynamic sites without relying on web servers.
 
 Since you will be using these technologies in the frontend, here are some in-hand best-practices that you’d want to utilize:
-Deliver the content via a CDN or via an API, such as Content Management System
-Leverage the credibility and benefits of serverless functions and webhooks to make your site dynamic, and
-Establish a git workflow for automatic deployment and continuous workflow. 
+<ul class="round">
+<li>Deliver the content via a CDN or via an API, such as Content Management System</li>
+<li>Leverage the credibility and benefits of serverless functions and webhooks to make your site dynamic, and</li>
+<li>Establish a git workflow for automatic deployment and continuous workflow. </li>
+</ul>
 
 For marketers, here are some of the benefits over the top of my mind:
 <ul class="round">

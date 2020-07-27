@@ -381,8 +381,7 @@ blockquote p {
   color: black;
   font-size: 1.45rem;
   line-height: 1.4;
-  font-family: "PT Serif", Cambria, "Hoefler Text", Utopia, "Liberation Serif",
-    "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+  font-family: 'Prompt', sans-serif;
 }
 blockquote span {
   margin-top: 0.5em;
@@ -450,7 +449,7 @@ blockquote:nth-of-type(even) footer:after {
   border-radius: 50% 50% 50% 50%;
   content: open-quote;
   color: black;
-  font-family: sans-serif;
+  font-family: 'Prompt', sans-serif;
   height: 130px;
   left: 50%;
   line-height: 130px;
@@ -474,7 +473,7 @@ blockquote:nth-of-type(even) footer:after {
 .mb-style-2 blockquote p {
   color: black;
   display: inline;
-  font-family: Baskerville, Georgia, serif;
+  font-family: 'Prompt', sans-serif;
   font-style: italic;
 }
 
@@ -599,6 +598,7 @@ ul {
     position: relative;
     padding: 0 0 0 20px;
     margin: 0 0 5px 0;
+    font-family: 'Prompt', sans-serif;
 
   }
 }
@@ -990,7 +990,7 @@ ul.curved-round {
   right: 0;
   color: #FFF;
   text-align: center;
-  font-family: "lato", sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-weight: 300;
   font-size: 50px;
   letter-spacing: 10px;
@@ -1645,6 +1645,7 @@ span.post-name, span.post-date, span.author-meta {
   font-size: 17px;
   line-height: 1.6;
   font-weight: 400;
+  font-family: 'Prompt', sans-serif;
 }
 .card .img-fluid {
   width: 100%;

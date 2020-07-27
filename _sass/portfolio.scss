@@ -79,7 +79,7 @@
 
 .personal_text h6 {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Prompt', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2.1px;
   font-weight: normal;
@@ -89,7 +89,7 @@
 .personal_text h4 {
   font-size: 16px;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Prompt', sans-serif;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: white;
@@ -101,7 +101,7 @@
   color: white;
 }
 .personal_text p {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Prompt', sans-serif;
   max-width: 540px;
   color: white;
   margin-bottom: 40px;
@@ -175,11 +175,7 @@ stylesheet. */
     designed on a 20 by 20 grid. */
 }
 
-body {
-  font-size: 22px;
-  font-family: 'Prompt', sans-serif;
-  color: black;
-}
+
 /* Make sure that padding behaves as expected */
 * {
   box-sizing: border-box;

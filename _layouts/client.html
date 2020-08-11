@@ -4,10 +4,9 @@ permalink: "/clients"
 ---
 
 {% assign portfolio = site.pages | where: "path", "portfolio.html" | first %}
-<section class="hero diagonal"> <div id='stars'></div>
-  <div id='stars2'></div>
-  <div id='stars3'></div>
-  <div class="container">
+<section>
+  
+  <div class="blog-post text-container" style="display: grid;">
     {% if portfolio.heading %}
     <h2>
       <a href="{{ site.baseurl }}/portfolio/">{{ portfolio.heading }}</a> /
@@ -17,18 +16,10 @@ permalink: "/clients"
     <p class="subtext">{{ page.subtitle }}</p>
     {% endif %}
   </div>
-</section>
-
-<section style="color: #ffffff;
-background: #34353A;
-text-align: left;
-margin-top: -100px;
-padding-top: 250px; background-image: url(/images/shattered-island.gif);"> <div id='stars'></div>
-  <div id='stars2'></div>
-  <div id='stars3'></div>  <div class="container">
+  <div class="container">
     <p>
       <img
-        src="{% include relative-src.html src=client.image_path %}"
+        src="{% include relative-src.html src=page.image_path %}"
         class="screenshot"
       />
     </p>
@@ -40,3 +31,5 @@ padding-top: 250px; background-image: url(/images/shattered-island.gif);"> <div 
     </p>
   </div>
 </section>
+
+ 

@@ -133,36 +133,31 @@ padding-top: 250px; background-image: url(/images/shattered-island.gif);"> <div 
     </div>
 
   </div>
+  <div class="container">
+    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_clients/" class="btn"><strong>&#9998;</strong> Manage Clients</a></p>
+ <h2 class="title-text home">Projects I worked on</h2>
+    <ul class="image-grid">
+    {% for client in site.clients %}
+      <li>
+        <a href="{{ site.baseurl }}{{ client.url }}">
+          <img src="{{ site.baseurl }}/images/{{ client.image_path }}" class="img-responsive" alt="{{ post.alt }}">
+         
+          <div class="details">
+            <div class="name">{{ client.name }}</div>
+            <div class="position">{{ client.subtitle }}</div>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+    <li class="filler"></li>
+    <li class="filler"></li>
+  </ul>
+</div>
   
   </section>
 
-  <section style="color: #ffffff;
-  background: #34353A;
-  text-align: left;
-  margin-top: -100px;
-  padding-top: 250px; background-image: url(/images/shattered-island.gif);"> <div id='stars'></div>
-    <div id='stars2'></div>
-    <div id='stars3'></div>
-	<div class="container">
-	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_clients/" class="btn"><strong>&#9998;</strong> Manage Clients</a></p>
-		<ul class="image-grid">
-			{% for client in site.clients %}
-				<li>
-					<a href="{{ site.baseurl }}{{ client.url }}">
-            <img src="{{ site.baseurl }}/images/clients/{{ client.image_path }}" class="img-responsive" alt="{{ post.alt }}">
-           
-						<div class="details">
-							<div class="name">{{ client.name }}</div>
-							<div class="position">{{ client.subtitle }}</div>
-						</div>
-					</a>
-				</li>
-			{% endfor %}
-			<li class="filler"></li>
-			<li class="filler"></li>
-		</ul>
-	</div>
-</section>
+ 
+
 
 
 

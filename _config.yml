@@ -36,7 +36,7 @@ timezone: Etc/UTC
 collections:
   staff_members:
     output: false
-  insights:
+  clients:
     output: true
 
 paginate: 10
@@ -72,9 +72,9 @@ defaults:
           height: 2000
   - scope:
       path: ""
-      type: "insights"
+      type: "clients"
     values:
-      layout: "insight"
+      layout: "client"
       _options:
         image_path:
           width: 2000

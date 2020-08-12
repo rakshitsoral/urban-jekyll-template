@@ -3,6 +3,7 @@ name: Cause Template
 subtitle: Not for profit template for Jekyll
 external_url: /clients/cause
 image_path: /cause.jpg
+alt: Cause Template
 ---
 
 Not for profit themed template for Jekyll. Browse through a [live demo](https://clean-oryx.cloudvent.net/).

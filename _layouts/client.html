@@ -7,21 +7,13 @@ permalink: "/clients"
 <section>
   
   <div class="blog-post text-container" style="display: grid;">
-    {% if portfolio.heading %}
-    <h2>
-      <a href="{{ site.baseurl }}/portfolio/">{{ portfolio.heading }}</a> /
-      {{ page.title | capitalize }}
-    </h2>
-    {% endif %} {% if page.subtitle %}
-    <p class="subtext">{{ page.subtitle }}</p>
+     {% if page.subtitle %}
+    <h2 class="title-text home" style="color:black">{{ page.subtitle }}</h2>
     {% endif %}
   </div>
   <div class="container">
     <p>
-      <img
-        src="{% include relative-src.html src=page.image_path %}"
-        class="screenshot"
-      />
+      <img src="{{ site.baseurl }}/images/{{ page.image_path }}" class="screenshot" alt="{{ post.alt }}">
     </p>
     <div>
       {{ content }}

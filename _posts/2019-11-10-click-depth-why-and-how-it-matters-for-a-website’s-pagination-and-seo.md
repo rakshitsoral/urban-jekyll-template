@@ -7,8 +7,23 @@ slug: click-depth-website-pagination-seo
 excerpt: In this article, we will learn how to implement website pagination in a
   300 pages website. We will learn this in a way such that it will help in
   website SEO and achieve rankings.
-redirect_from: /seo/2019/11/10/click-depth-website-pagination-seo/
 author: Rakshit Soral
+schemadotorg:
+  "@context": http://schema.org/
+  "@type": Article
+  about: "This is an article covering Click Depth and SEO"
+  audience:
+    - "@type": Audience
+      name: WebMaster
+
+  name: "Adding schema.org to your website"
+  author: [Rakshit Soral]
+  contributor:
+    - "@type": Person
+      name: "Rakshit Soral"
+  description: "In order to establish higher search results for online resources"
+  keywords: ["Click Depth", "Page Depth"]
+  license: CC-BY 4.0
 ---
 A lot has been written on on-page SEO factors and how they affect search engine rankings.
  

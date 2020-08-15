@@ -5,6 +5,7 @@
   "url": "{{ site.url }}",
   "description": "{{ site.description }}",
   "dateModified": "{{ site.time | date_to_xmlschema }}",
+  "image": "{{ page.featured-image }}",
   "creator": {
     "@type": "Person",
     "name": "Rakshit Soral"

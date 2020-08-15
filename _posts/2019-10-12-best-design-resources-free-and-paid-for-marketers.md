@@ -3,7 +3,7 @@ title: Best Design Resources (Free and Paid) for Marketers
 categories:
   - digital-marketing
   - design
-featured-image: design.webp
+featured-image: Design resources.webp
 slug: best-design-resources-free-and-paid-for-marketers
 excerpt: In this article, I will mention some of my favourite design resources that will help you implement design as a marketer. These design resources include, but are not limited to, icons pack, design softwares, online tools, free illustration websites, img compressors, etc. 
 redirect_from: "/digital-marketing/design/2019/10/12/best-design-resources-free-and-paid-for-marketers/"

@@ -2,7 +2,7 @@
 title: Click Depth - Why and How it matters for a Website’s pagination and SEO
 categories:
   - SEO
-featured-image: Click Depth.webp
+featured-image: Click Depth SEO.webp
 slug: click-depth-website-pagination-seo
 excerpt: In this article, we will learn how to implement website pagination in a
   300 pages website. We will learn this in a way such that it will help in

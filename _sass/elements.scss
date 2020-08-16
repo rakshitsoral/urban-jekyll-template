@@ -11,7 +11,13 @@ $breakpoint: 700px;
   box-sizing: border-box;
 }
 
-
+@font-face {
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lora'), local('Lora', serif), url(https://fonts.googleapis.com/css2?family=Lora&display=swap);
+  font-display: swap;
+}
 
 
 

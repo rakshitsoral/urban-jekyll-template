@@ -12,10 +12,10 @@ $breakpoint: 700px;
 }
 
 @font-face {
-  font-family: 'Lora', serif;
+  font-family: fontawesome-webfont;
   font-style: normal;
   font-weight: 400;
-  src: local('Lora'), local('Lora', serif), url(https://fonts.googleapis.com/css2?family=Lora&display=swap);
+  src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3) format("woff2");
   font-display: swap;
 }
 

@@ -177,8 +177,25 @@ padding-top: 250px; background-image: url(/images/shattered-island.gif);">
               
               
             </div>
-  </div><br><br><br>
-  
+  </div><br><br><br><br>
+ 
+<div class="horia-description">
+  <div class="descri w-container">
+    <div class="div-description mobile w-row">
+      <div class="description-section w-col w-col-8">
+        <h1 class="title-text home">Some Insights from me ✍️</h1>
+        <p class="about-me left">Having worked as a content marketer in B2B and B2C Industries, I publish my Insights of Digital Marketing from time-to-time. Here are a couple of my articles on marketing:</p>
+        </p>
+        <p class="about-me left"><a href="{{ site.baseurl }}/blog/"><i>Read more insights &#8608;</i></a></p>  
+      </div>
+          <div class="image-horia right mobile w-col w-col-4">
+          <ul class="image-grid">
+     {% for post in site.posts limit:4 %}
+                       
+<li><a href="{{ post.url }}"> <img src="{{ site.baseurl }}/images/{{ post.featured-image }}"></a></li>{% endfor %}
+
+</ul>
+</div></div></div><br><br><br><br><br>
 </section>
 
 <script>

@@ -2,7 +2,7 @@
 title: How to Build a Blog for Free (Step-by-Step Walkthrough) - Part 1 of 3
 categories:
   - blogging
-featured-image: Build Jekyll blog (1).webp
+featured-image: Jekyll free blog.webp
 slug: build-blog-for-free-part-one
 excerpt: In this article, I will walk you through the first part of building a blog for free. I will tell you the skills that will help you to build a static site blog for free.  
 featured: true

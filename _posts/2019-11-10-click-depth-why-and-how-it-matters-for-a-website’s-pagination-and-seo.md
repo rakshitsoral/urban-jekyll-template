@@ -8,24 +8,8 @@ excerpt: In this article, we will learn how to implement website pagination in a
   300 pages website. We will learn this in a way such that it will help in
   website SEO and achieve rankings.
 author: Rakshit Soral
-schemadotorg:
-  "@context": http://schema.org/
-  "@type": Article
-  about: "This is an article covering Click Depth and SEO"
-  audience:
-    - "@type": Audience
-      name: WebMaster
-
-  name: "Adding schema.org to your website"
-  author: [Rakshit Soral]
-  contributor:
-    - "@type": Person
-      name: "Rakshit Soral"
-  description: "In order to establish higher search results for online resources"
-  keywords: ["Click Depth", "Page Depth"]
-  license: CC-BY 4.0
 ---
-A lot has been written on on-page SEO factors and how they affect search engine rankings.
+<span class="first-letter">A</span> lot has been written on on-page SEO factors and how they affect search engine rankings.
  
 Unfortunately, not every article covering on-page SEO factors lists Click Depth or Page Depth as a ranking factor.
  
@@ -66,10 +50,10 @@ As per Google, the optimal click depth of the home page should not be greater th
  
 Here’s what Google’s John Muller has to say about the importance of Click Depth in SEO,
  
-<<<<<<< HEAD
-<div class="mb-wrap mb-style-2"><blockquote style="font-size: 20 px">“What does matter for us ... is how easy it is to actually find the content. So especially if your homepage is generally the strongest page on your website, and from the homepage, it takes multiple clicks to actually get to one of these stores, then that makes it a lot harder for us to understand that these stores are actually pretty important."<br><br>
+<blockquote>“What does matter for us ... is how easy it is to actually find the content. So especially if your homepage is generally the strongest page on your website, and from the homepage, it takes multiple clicks to actually get to one of these stores, then that makes it a lot harder for us to understand that these stores are actually pretty important."<br><br>
  
-“On the other hand, if it’s one click from the home page to one of these stores then that tells us that these stores are probably pretty relevant, and that probably we should be giving them a little bit of weight in the search results as well. So it’s more a matter of how many links you have to click through to actually get to that content rather than what the URL structure itself looks like.”</blockquote></div>
+“On the other hand, if it’s one click from the home page to one of these stores then that tells us that these stores are probably pretty relevant, and that probably we should be giving them a little bit of weight in the search results as well. So it’s more a matter of how many links you have to click through to actually get to that content rather than what the URL structure itself looks like.”</blockquote>
+
 In essence: If a page needs more than 3 clicks to be reached, it’s performance will be considered as poorly to search engines. Hence, the pages that are deeper in your website silo’s will have issues to crawl as compared to the page of click depth one or two.
  
 If the stats are to be believed, deep pages have a lower page rank because search engines are less likely to find them. Hence, crawling issues will be there. These pages are less likely to perform and rank as compared to the pages that are easily found from the home page.

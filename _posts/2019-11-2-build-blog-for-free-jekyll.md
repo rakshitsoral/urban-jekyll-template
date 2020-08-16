@@ -12,7 +12,7 @@ toc: true
 
 ---
 
-So you finally decided to build a blog that costs you nothing. I am sure you have read <a href="https://rakshitsoral.ga/blogging/2019/10/18/build-blog-for-free-part-one/">“Part 1”</a> of this series, which helps you to take the decision. Buckle up, as I take you through the next part which deals with building a free blog with Jekyll on Github pages. 
+<span class="first-letter">S</span>o you finally decided to build a blog that costs you nothing. I am sure you have read <a href="https://rakshitsoral.ga/blogging/2019/10/18/build-blog-for-free-part-one/">“Part 1”</a> of this series, which helps you to take the decision. Buckle up, as I take you through the next part which deals with building a free blog with Jekyll on Github pages. 
 
 To make you navigate through the blog in an easy way, I divided this blog into two parts:
 
@@ -22,8 +22,6 @@ To make you navigate through the blog in an easy way, I divided this blog into t
 </ul>
 
 ## Choosing the platform: Why Static Site Generator?
-
-### Personal Anecdote
 
 In 2017, I created my <a href="https://huntfordigital.com/" target="_blank">first ever blog</a> on WordPress and it was an awesome experience. The process was not at all time consuming, let alone cost-effective. Since a lot of marketing experiments deal with Wordpress, it was obvious to be my initial choice. However, I wanted to experiment with something different; something which makes me learn one thing or two. 
 
@@ -82,9 +80,9 @@ Although you won’t require much language knowledge to get a static site up and
 
 Now that the prerequisites are known, let’s move on and learn how to build a blogging website with Jekyll for Free. 
 
-## Building a FREE blog: Setting up Jekyll on Github Pages
+## Building a FREE blog: Setting up Jekyll on Github Pages<br>
 
-<h3><b>#Step 1:</b> Installing Jekyll with Ruby</h3>
+### *Step 1:* Installing Jekyll with Ruby
  
 <b>First things first, let's install Jekyll on your computer</b>
 

@@ -18,7 +18,7 @@ $breakpoint: 700px;
 a {
   color: #E7553D;
   text-decoration: none;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Lora', serif;
 }
 
 a:hover {
@@ -32,36 +32,43 @@ img {
 
 h1 {
   color: black;
-  font-weight: 500;
-  font-size: 3.3rem;
+  font-weight: 900;
+  font-size: 4.5rem;
   margin: 0;
   line-height: 1.4;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Lora', serif;;
 }
 
 h2 {
-  color: black;
-  font-weight: 500;
-  font-size: 27px;
-  margin: 0 0 30px 0;
-  line-height: 1.65;
-  font-family: 'Prompt', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 0;
+  text-align: left;
+  line-height: 34.5px;
+  letter-spacing: -0.45px;
+  font-family: 'Lora', serif;
   
 
 }
 
 h3 {
-  color: black;
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  line-height: 1.4;
-  font-family: 'Prompt', sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  padding: 0;
+  text-align: left;
+  line-height: 34.5px;
+  letter-spacing: -0.45px;
+  font-family: 'Lora', serif;
 }
 
 h4 {
-  font-size: 22px;
-  margin: 0 0 10px 0;
-  line-height: 1.4;
+  font-size: 21px;
+  font-weight: 700;
+  padding: 0;
+  text-align: left;
+  line-height: 34.5px;
+  letter-spacing: -0.45px;
+  font-family: 'Lora', serif;
 }
 
 p,
@@ -75,9 +82,11 @@ pre {
 address,
 ul,
 ol {
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 1.75;
+  margin-top: 5px;
+  font-family: "Lora";
+  font-size: 21px;
+  letter-spacing: -0.03px;
+  line-height: 1.58;
 }
 
 pre {
@@ -87,15 +96,11 @@ pre {
 }
 
 p {
-  display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1.848rem;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-family: 'Prompt', sans-serif;
-    font-size: 18px;
-  font-weight: 300;
-  line-height: 2em;
+  margin-top: 21px;
+  font-family: "Lora";
+  font-size: 21px;
+  letter-spacing: -0.03px;
+  line-height: 1.58;
   color: black;
 }
 #scroll-to-top {
@@ -185,7 +190,7 @@ body{
             span{
               color:$mainColor;
               font-size: $fSize +100;
-              font-family: 'Prompt', sans-serif;
+              font-family: 'Lora', serif;;
               cursor: help;
               letter-spacing: -15px;
               animation-name: anim;
@@ -376,16 +381,15 @@ body{
  kbd,
  pre,
  samp {
-   font-family: 'Prompt', sans-serif;
+   font-family: 'Lora', serif;;
    font-size: 18px;
  }
- 
  code {
-   color: #eea8b9;
-   padding: 0.25em;
-   word-wrap: break-word;
- }
- 
+  font-size: 18px;
+  background: rgba(0,0,0,.05);
+  border-radius: 2px;
+  padding: 3px 5px;
+}
  pre {
    background-color: #444444;
    color: whitesmoke;
@@ -588,4 +592,15 @@ $white: white;
     max-width: 100%;
     border: 2px solid lightgrey;
   }
+}
+.first-letter {
+  overflow-wrap: break-word;
+  font-family: 'Lora', serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+  display: block;
+  position: relative;
+  float: left;
+  margin: 0px 7px 0 -5px;
 }

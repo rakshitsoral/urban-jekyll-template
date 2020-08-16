@@ -11,7 +11,7 @@ author: Rakshit
 featured: true
 
 ---
-While I don’t consider myself as a designer, I see design as an essential skill for marketers. No matter if you are someone who fancy writing awesome content; someone who gets busy sending newsletters to an audience, or someone who is earning as a freelancer. Marketing without Design is like coconut without water. Here's why, I love to try different tools and enhance my creativity. Here are some design resources I prefer to use as a marketer:
+<span class="first-letter">W</span>hile I don’t consider myself as a designer, I see design as an essential skill for marketers. No matter if you are someone who fancy writing awesome content; someone who gets busy sending newsletters to an audience, or someone who is earning as a freelancer. Marketing without Design is like coconut without water. Here's why, I love to try different tools and enhance my creativity. Here are some design resources I prefer to use as a marketer:
 
 ## 🖼 Creating and Editing Marketing collaterals and Images
 

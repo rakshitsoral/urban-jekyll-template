@@ -10,7 +10,7 @@ featured: false
 
 ---
 
-When I first wrote the blog post about <a href="https://rakshitsoral.com/build-blog-for-free-part-one/" target="_blank">building a Jekyll website</a>, I never knew that JAMStack or static-site generators could be getting popularity among marketing community. 
+<span class="first-letter">W</span>hen I first wrote the blog post about <a href="https://rakshitsoral.com/build-blog-for-free-part-one/" target="_blank">building a Jekyll website</a>, I never knew that JAMStack or static-site generators could be getting popularity among marketing community. 
 
 It wasn’t obvious to me until I witnessed a few marketers who use JAMStack for their personal and side experiments. 
 
@@ -55,7 +55,7 @@ Moreover, since there is no involvement of server and backend, the scalability c
 
 Mathieu Dionne, the lead Marketer at Snipcart, defines it succinctly,
 
-<div class="mb-wrap mb-style-2"><blockquote style="font-size: 20 px">“JAMstack is a significant shift in focus from the now abstractable backend to the now powerful frontend.” - Mathieu Dionne</blockquote></div>
+<blockquote>“JAMstack is a significant shift in focus from the now abstractable backend to the now powerful frontend.” - Mathieu Dionne</blockquote>
 
 For marketers who are still new to this concept, here’s what JAMStack websites may have for you in-store:
 <ul class="round">

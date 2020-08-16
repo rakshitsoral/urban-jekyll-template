@@ -9,7 +9,7 @@ featured: true
 
 ---
 
-Today, I’m going to show you a VERY simple technique for building a Blog website for FREE. 
+<span class="first-letter">T</span>oday, I’m going to show you a VERY simple technique for building a Blog website for FREE. 
 
 Although much has been written about building a blog website online, there is little to negligible information about how to build a blog from scratch without bearing any cost at all. 
 

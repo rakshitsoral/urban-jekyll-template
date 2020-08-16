@@ -300,11 +300,7 @@ font-size: 17px;
     font-size: 17px;
     line-height: 1.8em;
   }
-  .mb-style-2 blockquote p
-  {
-    font-size: 21px;
-    line-height: 1.8em;
-  }
+  
 
   .personal_text p {
     color: black;
@@ -368,126 +364,16 @@ p.subtext.editable
 }
 
 blockquote {
-  margin: 0 auto;
-  padding: 1em;
-  border-left: 5px solid #e7553d;
-}
-blockquote:before {
-  display: none;
-}
-blockquote:not(:first-of-type) {
-  margin-top: 0.5em;
-}
-blockquote p {
-  color: black;
-  font-size: 1.45rem;
-  line-height: 1.4;
-  font-family: 'Prompt', sans-serif;
-}
-blockquote span {
-  margin-top: 0.5em;
-  padding: 0;
-  font-size: 20px;
-  color: #e7553d;
-  text-align: left;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
   font-style: italic;
-}
-blockquote span:before {
-  content: "\2014";
-}
-blockquote:nth-of-type(even) {
-  text-align: right;
-  border-left: none;
-  border-right: 5px solid white;
-}
-blockquote:nth-of-type(even) footer {
-  text-align: right;
-}
-blockquote:nth-of-type(even) footer:before {
-  content: "";
-}
-blockquote:nth-of-type(even) footer:after {
-  content: " —";
-}
-@element 'blockquote' and (min-width: 300px) {
-  blockquote {
-    padding: 1em 20% 1em 1em;
-  }
-  blockquote p {
-    font-size: 14pt;
-  }
-  blockquote:nth-of-type(even) {
-    padding: 1em 1em 1em 20%;
-  }
-}
-.mb-wrap {
-  margin: 20px auto;
-  padding: 20px;
-  position: relative;
-}
-
-.mb-wrap p {
-  margin: 0;
-  padding: 0;
-}
-
-.mb-wrap blockquote {
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
-
-.mb-wrap cite {
-  font-style: normal;
-}
-
-.mb-style-2 blockquote {
-  padding-top: 150px;
-}
-
-.mb-style-2 blockquote:after {
-  background: none repeat scroll 0 0 #e7553d;
-  border-radius: 50% 50% 50% 50%;
-  content: open-quote;
-  color: black;
-  font-family: 'Prompt', sans-serif;
-  height: 130px;
-  left: 50%;
-  line-height: 130px;
-  margin-left: -65px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 130px;
-}
-.mb-style-2 blockquote:before {
-  border-left: 5px solid #e7553d;
-  border-radius: 50% 50% 50% 50%;
-  content: "❞";
-  height: 500px;
-  left: -50px;
-  position: absolute;
-  top: 0;
-  z-index: -1;
-}
-
-.mb-style-2 blockquote p {
-  color: black;
-  display: inline;
-  font-family: 'Prompt', sans-serif;
-  font-style: italic;
-}
-
-.mb-attribution {
-  text-align: right;
-}
-
-.mb-author {
-  color: purple;
-  font-size: 18px;
-  font-weight: bold;
-  padding-top: 10px;
-  text-transform: uppercase;
+  letter-spacing: -0.36px;
+  line-height: 44.4px;
+  overflow-wrap: break-word;
+  margin: 55px 0 33px 0;
+  /* text-align: center; */
+  color: rgba(0, 0, 0, 0.68);
+  padding: 0 0 0 50px;
 }
 
 cite a {
@@ -599,7 +485,7 @@ ul {
     position: relative;
     padding: 0 0 0 20px;
     margin: 0 0 5px 0;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Lora', serif;;
 
   }
 }
@@ -991,7 +877,7 @@ ul.curved-round {
   right: 0;
   color: #FFF;
   text-align: center;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Lora', serif;;
   font-weight: 300;
   font-size: 50px;
   letter-spacing: 10px;
@@ -1105,7 +991,7 @@ ul.curved-round {
 .heading.home {
   margin-bottom: 15px;
   padding-bottom: 0px;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Lora', serif;;
   color: white;
   font-size: 38px;
   line-height: 50px;
@@ -1134,7 +1020,7 @@ ul.curved-round {
 .description.left {
   margin-top: -6px;
   padding-right: 62px;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Lora', serif;;
   font-size: 24px;
   line-height: 35px;
 }
@@ -1242,14 +1128,11 @@ a {
   align-items: center;
 }
 .about-me.left {
-  margin-top: 0px;
-  padding-top: 0px;
-  padding-right: 12px;
-  padding-bottom: 0px;
-  font-family: 'Prompt', sans-serif;
+  font-family: "Lora";
+  font-size: 21px;
+  letter-spacing: -0.03px;
+  line-height: 1.58;
   color: white;
-  font-size: 18px;
-  line-height: 28px;
 }
 .about-me {
   padding-top: 12px;
@@ -1270,7 +1153,7 @@ a {
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 0px;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Lora', serif;;
   color: white;
   font-size: 38px;
   font-weight: 800;
@@ -1434,7 +1317,7 @@ a {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Lora', serif;;
   color: #21262f;
   font-size: 16px;
   font-style: normal;
@@ -1481,7 +1364,7 @@ a {
   grid-column-gap: 16px;
 }
 .resume-text {
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Lora', serif;;
   color: white;
   font-size: 16px;
   font-weight: 400;
@@ -1645,7 +1528,7 @@ span.post-name, span.post-date, span.author-meta {
   font-size: 17px;
   line-height: 1.6;
   font-weight: 400;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Lora', serif;;
 }
 .card .img-fluid {
   width: 100%;

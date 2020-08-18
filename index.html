@@ -152,11 +152,11 @@ padding-top: 250px; background-image: url(/images/shattered-island.gif);">
            </div><br><br><br><br><br><br><br><br><br>
            <h1 class="title-text home">Full-time Work Experience 👨‍💻</h1>
            <div class="linkedin-text w-clearfix"><br>
-            <p class="text-block">
-              <a href="https://www.linkedin.com/in/rakshitsoral/?originalSubdomain=in" target="_blank">View more on Linkedin</a></div>
-            </p>
+  
+             <i> <a href="https://www.linkedin.com/in/rakshitsoral/?originalSubdomain=in" target="_blank">View more on Linkedin</a></i></div>
+            
               <div class="div-block-4"></div>
-           <p class="about-me left">My work experience has offered me a fantastic opportunity to learn, experiment, and refining my craft in the process. Working in both B2B and B2C industries, I’ve build dynamic websites using wordpress, webflow, static site generators (jekyll and hugo), performed Search Engine Optimization (SEO) to generate organic traffic, implemented relevant CTAs to generate leads, and developed value-adding email marketing strategies to help nurture them.
+           <p class="about-me left">My work experience has offered me a fantastic opportunity to learn, experiment, and refine my craft in the process. Working in both B2B and B2C industries, I’ve build dynamic and static websites using wordpress, webflow and static site generators (jekyll and hugo) respectively, performed Search Engine Optimization (SEO) to generate organic traffic, implemented relevant CTAs to generate leads, and developed value-adding email marketing strategies to help nurture them.
 
           </p>
           
@@ -184,7 +184,7 @@ padding-top: 250px; background-image: url(/images/shattered-island.gif);">
     <div class="div-description mobile w-row">
       <div class="description-section w-col w-col-8">
         <h1 class="title-text home">Some Insights from me ✍️</h1>
-        <p class="about-me left">Having worked as a content marketer in B2B and B2C Industries, I publish my Insights on Digital Marketing from time-to-time. Here are a couple of my articles on marketing:</p>
+        <p class="about-me left">Having worked as a Digital marketer in B2B and B2C Industries, I publish my insights from time-to-time. Here are couple of my articles on marketing:</p>
         </p>
         <p class="about-me left"><a href="{{ site.baseurl }}/blog/"><i>Read more insights &#8608;</i></a></p>  
       </div>
@@ -192,7 +192,10 @@ padding-top: 250px; background-image: url(/images/shattered-island.gif);">
           <ul class="image-grid">
      {% for post in site.posts limit:4 %}
                        
-<li><a href="{{ post.url }}"> <img src="{{ site.baseurl }}/images/{{ post.featured-image }}"></a></li>{% endfor %}
+<li><a href="{{ post.url }}"> <img src="{{ site.baseurl }}/images/{{ post.featured-image }}"> <div class="details">
+  <div class="name">{{ post.categories }}</div>
+  <div class="position">{{ post.subtitle }}</div>
+</div></a></li>{% endfor %}
 
 </ul>
 </div></div></div><br><br><br><br><br>

@@ -1,6 +1,6 @@
 ---
 title: How to Build a Blog for FREE - Setting up Jekyll (Part 2 of 3)
-subtitle: This article walk you through a simple way of setting up a Jekyll blog for free. Jekyll is a static site generator which lets you build static site on Github pages.
+subtitle: Build Jekyll blog
 header-img: Jekyll blog (1).png
 categories:
   - blogging

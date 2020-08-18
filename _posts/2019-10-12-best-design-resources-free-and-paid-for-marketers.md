@@ -1,5 +1,6 @@
 ---
 title: Best Design Resources (Free and Paid) for Marketers
+subtitle: Marketing Design Resources
 categories:
   - digital-marketing
   - design

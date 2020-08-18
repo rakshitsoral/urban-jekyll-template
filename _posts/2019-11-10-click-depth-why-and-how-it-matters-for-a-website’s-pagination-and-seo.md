@@ -1,5 +1,6 @@
 ---
 title: Click Depth - Why and How it matters for a Website’s pagination and SEO
+subtitle: What is Click Depth?
 categories:
   - SEO
 featured-image: Click Depth SEO.webp

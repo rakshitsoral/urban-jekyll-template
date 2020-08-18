@@ -1,5 +1,6 @@
 ---
 title: Why JAMStack Websites are the Next Big Thing for Marketing Experiments
+subtitle: JAMStack for Marketers
 categories:
   - digital-marketing
 featured-image: JAMStack cover.webp

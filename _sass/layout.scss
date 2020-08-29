@@ -1481,19 +1481,22 @@ b, strong {
   }
   .column.right.ipad-image.mobileside.mobileportrait
   {
-    margin-top: 32px;
+    margin-top: 20px;
     padding-left: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding-top: 250px;
+    padding-top: 50px;
+  }
+  .image-vector ls-is-cached lazyloaded
+  {
+    margin-left: 0px;
   }
   .header-collumn.ipad.mobile.w-row
   {
     display: flex;
     flex-direction: column;
-    padding-top: 40px;
   }
   .image-vector
   {

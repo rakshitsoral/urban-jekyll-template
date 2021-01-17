@@ -1,18 +1,18 @@
 ---
-title: How to Build a Blog for FREE - Setting up Jekyll (Part 2 of 3)
+title: How to Build a Jekyll Blog for FREE 
 subtitle: Build Jekyll blog
 header-img: Jekyll blog (1).png
 categories:
   - blogging
 featured-image: Jekyll blog (1).webp
-slug: build-blog-for-free-part-two-jekyll
-excerpt: This is the part 2 of series "how to build a blog for free". In this part, I will walk you through step-by-step process of installing Jekyll and build a blog website for free. 
+slug: build-jekyll-blog-free
+excerpt: In this blog, I will walk you through the process of building a Jekyll blog for FREE. You will learn the step-by-step process of building a jekyll website. 
 toc: true
 
 
 ---
 
-<span class="first-letter">S</span>o you finally decided to build a blog that costs you nothing. I am sure you have read <a href="https://rakshitsoral.ga/blogging/2019/10/18/build-blog-for-free-part-one/">“Part 1”</a> of this series, which helps you to take the decision. Buckle up, as I take you through the next part which deals with building a free blog with Jekyll on Github pages. 
+<span class="first-letter">S</span>o you finally decided to build a blog that costs you nothing. I am sure you have read <a href="https://rakshitsoral.com/why-start-a-blog/">the benefits of building a blog</a> before taking the decision. Buckle up, as I take you through the next part which deals with building a free blog with Jekyll on Github pages. 
 
 To make you navigate through the blog in an easy way, I divided this blog into two parts:
 
